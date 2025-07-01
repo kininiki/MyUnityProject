@@ -1,0 +1,964 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 15d9ad7382f138845899920797eb1c9c
+  m_SerializeEntries:
+  - m_GUID: 000dda98a37f3124696ecbf1383e2508
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Music/Chapter1/\u043C\u0443\u0437
+      \u043A\u043B\u0430\u0441\u0441, \u041B\u0430\u043D\u0430.mp3"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 01881723d49e7e443bf5104c7819b6d0
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u042D\u043C\u043E\u0446\u0438\u0438
+      \u0430\u0444\u0440\u043E/\u041A\u0440\u0430\u0441\u043D\u0435\u0435\u0442.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 027275ed9142ea04fa2c5f956c2bdb6d
+    m_Address: "Assets/Scripts/Stories/Story_Lana/UI/\u0430\u0432\u0442\u043E\u04402.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 03ae0c1a46f344145b0b86a5cc0ebd42
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u042D\u043C\u043E\u0446\u0438\u0438
+      \u0430\u0437\u0438\u0430\u0442/\u0412\u0437\u0433\u043B\u044F\u0434\u0412\u0441\u0442\u043E\u0440\u0411\u0440\u043E\u0432\u044C.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 05fa6f04b969997468d276b6c64eca8e
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u041F\u0440\u0438\u0447\u0451\u0441\u043A\u0438
+      \u0433\u0433/1 \u0433\u043B\u0430\u0432\u0430/\u041F3 \u0427.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 06fc908ef6b3e804fa4ac28dd6e0340e
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u042D\u043C\u043E\u0446\u0438\u0438
+      \u0430\u0444\u0440\u043E/\u041E\u0442\u0432\u0435\u0434\u0412\u043F\u0440\u0430\u0432\u043E.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a2cc0ecd3fcd7f4cb205d20e89723c3
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Background/Chapter1/\u0410\u0432\u0442\u043E\u0431\u0443\u0441.mp4"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0bd4426e6fd603248814302115a56d11
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u042D\u043C\u043E\u0446\u0438\u0438
+      \u0430\u0437\u0438\u0430\u0442/\u0413\u0440\u0443\u0441\u0442\u044C.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0c1882fa1ce68dd4ca5c6f71217d43a8
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u042D\u043C\u043E\u0446\u0438\u0438
+      \u0430\u0444\u0440\u043E/\u0411\u0440\u043E\u0432\u044C\u0412\u0432\u0435\u0440\u0445.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0dd55c70da809094683354188ee30512
+    m_Address: "Assets/Scripts/Stories/Story_Lana/UI/\u043F\u043B\u0430\u0448\u043A\u0430
+      \u0441 \u0437\u0432\u0435\u0440\u0443\u0448\u043A\u0430\u043C\u0438 \u043F\u0442\u0438\u0447\u043A\u0430
+      \u0441\u0432\u0435\u0442.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1157091080361ca4194fed4056d7582d
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0412\u0442\u043E\u0440\u043E\u0441\u0442\u0435\u043F\u0435\u043D\u043D\u044B\u0435/\u0421\u0438\u043B\u0443\u044D\u0442\u044B
+      1 \u0433\u043B\u0430\u0432\u0430/\u0441\u0438\u043B\u0443\u044D\u0442 \u043C\u0443\u0436\u0438\u043A\u0430.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 12055338a60f7624aacc631e88db556f
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u042D\u043C\u043E\u0446\u0438\u0438
+      \u0431\u0435\u043B\u0430\u044F/\u0428\u0438\u0440\u0423\u043B\u044B\u0431\u043A\u0430.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 126cafec2d74a7040a0ea2dd2df61ea8
+    m_Address: "Assets/Scripts/Stories/Story_Lana/UI/\u0413\u04135.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 12b6524ba0cc82341a9d80d528aa8e0f
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0412\u0442\u043E\u0440\u043E\u0441\u0442\u0435\u043F\u0435\u043D\u043D\u044B\u0435/\u0422\u044D\u0434/\u0422\u042D\u0414
+      \u043D\u0430\u0445\u043C\u0443\u0440.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1306b0bea9a5dab4581981ff02226573
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u042D\u043C\u043E\u0446\u0438\u0438
+      \u0431\u0435\u043B\u0430\u044F/\u0421\u043B\u0451\u0437\u044B.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 14968a0073a4bcb488ce64da8333dbaa
+    m_Address: "Assets/Scripts/Stories/Story_Lana/UI/\u0413\u04132.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 155937ebcc4db49459e40eda1412ae18
+    m_Address: Assets/StreamingAssets/introvideo/Lana_en.mp4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1708d7a7acfed6b4a9b95d13789612cb
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Background/Chapter1/\u0430\u043A\u0430\u0434\u0435\u043C\u0438\u044F
+      \u0444\u0438\u043A\u0441.mp4"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 197041d692cf3674e8ea1610e2b6c9c0
+    m_Address: "Assets/Scripts/Stories/Story_Lana/UI/\u0412\u044B\u0431\u043E\u0440_\u043E\u0431\u044B\u0447\u043D\u044B\u0439.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d88b64932b22724eaac44823e0018ba
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Background/Chapter1/\u041A\u043B\u0430\u0441\u0441
+      \u043C\u0443\u0437\u044B\u043A\u0438.mp4"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e4a5607d7ae23c4bb23b0f10c7674f7
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Music/Chapter1/\u0417\u0430\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435.mp3"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 26e2c9341fe2fba47917f18a1b781d55
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0412\u0442\u043E\u0440\u043E\u0441\u0442\u0435\u043F\u0435\u043D\u043D\u044B\u0435/\u0411\u043E\u043C\u0436/\u0411\u043E\u043C\u0436\u0438\u043A
+      \u0432\u044B\u0448\u0435.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 296ffbc448c01b447a085b20b7654e27
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Background/Chapter1/\u0441\u043F\u0430\u043B\u044C\u043D\u044F
+      \u043F\u0440\u0438\u0433\u043E\u0440\u043E\u0434 \u0434\u0435\u043D\u044C.mp4"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a7435efe26ee894fb36c4f213aeaef9
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u042D\u043C\u043E\u0446\u0438\u0438
+      \u0431\u0435\u043B\u0430\u044F/\u041D\u0430\u0445\u043C\u0443\u0440\u0435\u043D\u043D\u0430\u044F.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c60d6f265b197a4ca361712439dcba3
+    m_Address: "Assets/Scripts/Stories/Story_Lana/UI/\u0430\u0432\u0442\u043E\u04403.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30b7510ceb2e8ad40a7dc657363ba2e7
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Background/Chapter1/\u041D\u043E\u0432\u044B\u0439
+      \u043F\u0440\u043E\u0435\u043A\u0442.mp4"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30b8eb93ac45c6a469b25ed34174078f
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u042D\u043C\u043E\u0446\u0438\u0438
+      \u0431\u0435\u043B\u0430\u044F/\u041A\u0440\u0430\u0441\u043D\u0435\u0435\u0442.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 314839273ac89064482091668273408a
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u042D\u043C\u043E\u0446\u0438\u0438
+      \u0430\u0444\u0440\u043E/\u0428\u0438\u0440\u043E\u043A\u0430\u044F\u0423\u043B\u044B\u0431\u043A\u0430.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32f7810342af59a4d8df12d5457a2dac
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u042D\u043C\u043E\u0446\u0438\u0438
+      \u0430\u0437\u0438\u0430\u0442/\u041D\u0430\u0445\u043C\u0443\u0440\u0435\u043D\u043D\u0430\u044F.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33b5dc5895bb17c4bbadff309e2b649d
+    m_Address: "Assets/UI/\u0438\u0441\u0442\u043E\u0440\u0438\u044F \u0444\u043E\u043D
+      \u0441\u0442\u0430\u0442\u044B3.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3520f9c4bbb0423419bc87054752c4c7
+    m_Address: "Assets/Scripts/Stories/Story_Lana/UI/\u043F\u0435\u0440\u04413.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 37c6a92311b98914494127c2674bbba4
+    m_Address: "Assets/UI/mainMenu/\u041A\u043E\u0440\u0440\u0435\u043A\u0446\u0438\u044F
+      \u043E\u0431\u043B\u043E\u0436\u043A\u0438 1-1_00000 (3).png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 38839866a40252943b1fafd5d0181fc0
+    m_Address: "Assets/Scripts/Stories/Story_Lana/UI/\u0413\u0413\u0432\u044B\u0431\u043E\u0440.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a69333343c96e644b2be49c8ed88a72
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Background/Chapter1/\u0420\u0435\u0441\u0442\u043E\u0440\u0430\u043D
+      \u0444\u0438\u043A\u0441.mp4"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b5c63598dd7a2b4f824469d13e4cc11
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0412\u0442\u043E\u0440\u043E\u0441\u0442\u0435\u043F\u0435\u043D\u043D\u044B\u0435/\u041C\u0430\u043C\u0430
+      \u0422\u044D\u0434\u0430/\u041C\u0422\u044D\u0434\u0430.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b5eed31162e64546a8c09eb38d07490
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Music/Chapter1/\u0414\u0432\u0438\u0436\u0435\u043D\u0438\u0435
+      \u0430\u0432\u0442\u043E\u0431\u0443\u0441\u0430.mp3"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3bdb226c7b75dd748b09d641cdebb811
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0412\u0442\u043E\u0440\u043E\u0441\u0442\u0435\u043F\u0435\u043D\u043D\u044B\u0435/\u0422\u044D\u0434/\u0422\u042D\u0414
+      \u0443\u0445\u043C\u044B\u043B.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3c43848844dd2454bb5dbc4c3fb4e93f
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u041F\u0440\u0438\u0447\u0451\u0441\u043A\u0438
+      \u0433\u0433/1 \u0433\u043B\u0430\u0432\u0430/\u041F4 \u0411.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3c5324d9ab614e648a1b635187cfcbf3
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u042D\u043C\u043E\u0446\u0438\u0438
+      \u0431\u0435\u043B\u0430\u044F/\u0423\u0445\u043C\u044B\u043B\u043A\u0430.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3c8617abdf0eb344589fee5494e44ef5
+    m_Address: Assets/StreamingAssets/VideoTexture.renderTexture
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d8eda7d17512f34e9f634e0ca72b868
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u041E\u0434\u0435\u0436\u0434\u0430
+      \u0433\u0433/1 \u0433\u043B\u0430\u0432\u0430/\u043F\u0430\u043B\u044C\u0442\u043E.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3dea73d118c7a8141bcdc8d77428d5ef
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u041E\u0434\u0435\u0436\u0434\u0430
+      \u0433\u0433/1 \u0433\u043B\u0430\u0432\u0430/\u0421\u0442\u0430\u0440\u0442.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 40cb288bec9cfda4fae7a1a44844e1d4
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Music/Chapter1/1 \u0441\u0435\u0440
+      \u0446\u0435\u0440\u043A\u043E\u0432\u044C.mp3"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 418b7e4dfee479f48a4f67fc987c8e72
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0412\u0442\u043E\u0440\u043E\u0441\u0442\u0435\u043F\u0435\u043D\u043D\u044B\u0435/\u0422\u044D\u0434/\u0422\u042D\u0414
+      \u0433\u0440\u0443\u0441\u0442\u044C.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 439d03a649de15e4b96f9e3740e02cc9
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u041F\u0440\u0438\u0447\u0451\u0441\u043A\u0438
+      \u0433\u0433/1 \u0433\u043B\u0430\u0432\u0430/\u041F4 \u0427.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 44f4fa12db904cf449f65ec1660c8914
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Background/Chapter1/\u041F\u0435\u0440\u0435\u0434
+      \u0446\u0435\u0440\u043A\u043E\u0432\u044C\u044E.mp4"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4827746eebca00c45a6d543c91c60a4d
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Background/Chapter1/\u041F\u0435\u0440\u0435\u0443\u043B\u043E\u043A.mp4"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4f7106711e801ef49b1c76beb4f23ddb
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0412\u0442\u043E\u0440\u043E\u0441\u0442\u0435\u043F\u0435\u043D\u043D\u044B\u0435/\u0421\u0438\u043B\u0443\u044D\u0442\u044B
+      1 \u0433\u043B\u0430\u0432\u0430/\u0441\u0438\u043B\u0443\u044D\u0442 \u043E\u0444\u0438\u0446\u0430.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 522237e927addd94fbd3a7e6f9621479
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u042D\u043C\u043E\u0446\u0438\u0438
+      \u0431\u0435\u043B\u0430\u044F/\u0413\u0440\u0443\u0441\u0442\u044C.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 529196c74ea554c4bb8a8fc337cf27bf
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Music/Chapter1/\u041B\u0438\u0432\u0435\u043D\u044C.mp3"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 52c15d0b0b922ac47a53c9f1aa8b776b
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u042D\u043C\u043E\u0446\u0438\u0438
+      \u0431\u0435\u043B\u0430\u044F/\u0411\u0440\u043E\u0432\u044C\u0412\u0432\u0435\u0440\u0445.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 53039975c0f0b764283af5ce002f4db7
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u042D\u043C\u043E\u0446\u0438\u0438
+      \u0431\u0435\u043B\u0430\u044F/\u0412\u0441\u0442\u043E\u0440\u043E\u043D\u0443\u041D\u0430\u043F\u0440\u0430\u0432\u043E.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 541b70ee29c74ef4c8d7d5bc2cb81cea
+    m_Address: "Assets/Scripts/Stories/Story_Lana/UI/\u043F\u043B\u0430\u0448\u043A\u0430
+      \u0441 \u0437\u0432\u0435\u0440\u0443\u0448\u043A\u0430\u043C\u0438 \u0437\u043C\u0435\u044F
+      \u0442\u044C\u043C\u0430.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 55479f618914515458e16b879cf0b7f2
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u041F\u0440\u0438\u0447\u0451\u0441\u043A\u0438
+      \u0433\u0433/1 \u0433\u043B\u0430\u0432\u0430/\u041F1 \u0427.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 55d2120834f7064499dcf98a649cfb98
+    m_Address: "Assets/Scripts/Stories/Story_Lana/UI/\u041A\u043D\u043E\u043F\u043A\u0438
+      \u0438\u043D\u0444\u043E \u0431\u0435\u0437 \u043A\u043D\u043E\u043F\u043A\u0438.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 57c1f277eba6ad44aa7e4be9379164e4
+    m_Address: "Assets/Scripts/Stories/Story_Lana/UI/\u041A\u043D\u043E\u043F\u043A\u0438
+      \u0438\u043D\u0444\u043E \u0441 \u043A\u043D\u043E\u043F\u043A\u043E\u0439.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 590b8265f1a62be4881ca2494750db07
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Music/Chapter1/\u0420\u0435\u0441\u0442\u043E\u0440\u0430\u043D.mp3"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d34e19149cdb6e49b1dda85e9ca638d
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u042D\u043C\u043E\u0446\u0438\u0438
+      \u0430\u0444\u0440\u043E/\u0423\u0445\u043C\u044B\u043B\u043A\u0430.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d504f49fdfac274dab0d2c3df25e521
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u042D\u043C\u043E\u0446\u0438\u0438
+      \u0431\u0435\u043B\u0430\u044F/\u0412\u0437\u0433\u043B\u044F\u0434\u0412\u0441\u0442\u043E\u0440\u0411\u0440\u043E\u0432\u044C.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61446c4f074f1a54e88ca37a1db662c4
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0412\u0442\u043E\u0440\u043E\u0441\u0442\u0435\u043F\u0435\u043D\u043D\u044B\u0435/\u0421\u0430\u0440\u0430/\u0441\u0430\u0440\u0430
+      \u0432\u044B\u0448\u0435 \u043E\u0441\u043A\u0430\u043B.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 63e26f1a2a18750458806ee9b185555d
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0412\u0442\u043E\u0440\u043E\u0441\u0442\u0435\u043F\u0435\u043D\u043D\u044B\u0435/\u0421\u0430\u0440\u0430/\u0441\u0430\u0440\u0430
+      \u0432\u044B\u0448\u0435 \u0443\u043B.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 644278f8585e8b048a3d7271fd49b0ba
+    m_Address: Assets/Scripts/Stories/Story_Lana/empty.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 673c2d4521d8b6b4ba3ce7bde27b602b
+    m_Address: "Assets/Scripts/Stories/Story_Lana/UI/\u0430\u0432\u0442\u043E\u04405.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 684bf4a66adb9b745a63cc8c77b2eeea
+    m_Address: "Assets/UI/\u0448\u0442\u0443\u043A\u0430 2.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 688ede558bac55743b75dab83d75c52e
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Background/Chapter1/\u041F\u0440\u0438\u0441\u0442\u0430\u043D\u044C
+      \u0432 \u041D\u0435\u0448\u0432\u0438\u043B\u043B\u0435.mp4"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6c7c2d028db856d4eaf105a72a99c6cc
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Music/Chapter1/\u041F\u0435\u0440\u0435\u0443\u043B\u043E\u043A
+      \u0446\u0438\u043A\u043B 4.mp3"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f04e06ce927650429d49ac2aeac5387
+    m_Address: "Assets/Scripts/Stories/Story_Lana/UI/\u0412\u0441\u043F\u043B\u044B\u0432
+      1.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 708db854514286342bca1c661e00b5c2
+    m_Address: Assets/StreamingAssets/introvideo/Lana_ru.mp4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 70cc4e0a8460b794e9d79c5de9c041f4
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u0410\u0437\u0438\u044F.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 712ee69149f12504485e9fc2a611d883
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u042D\u043C\u043E\u0446\u0438\u0438
+      \u0430\u0444\u0440\u043E/\u0423\u043B\u044B\u0431\u043A\u0430.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 718c5e3e5fadf5743a9f92090be55e64
+    m_Address: "Assets/Scripts/Stories/Story_Lana/UI/\u0430\u0432\u0442\u043E\u04406.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 729c2bf0c571dba47b9dc2a120b8d70c
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u042D\u043C\u043E\u0446\u0438\u0438
+      \u0430\u0437\u0438\u0430\u0442/\u041E\u0442\u0432\u0435\u0434\u0412\u0437\u0433\u043B\u044F\u0434\u041D\u0430\u043F\u0440\u0430\u0432\u043E.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7377a19f146f1504da8d1140a609f665
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0412\u0442\u043E\u0440\u043E\u0441\u0442\u0435\u043F\u0435\u043D\u043D\u044B\u0435/\u0421\u0438\u043B\u0443\u044D\u0442\u044B
+      1 \u0433\u043B\u0430\u0432\u0430/\u0412\u0438\u0442\u044F (1).png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 742bf9789e3f4ca4fade609f6ffc9fef
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u041F\u0440\u0438\u0447\u0451\u0441\u043A\u0438
+      \u0433\u0433/1 \u0433\u043B\u0430\u0432\u0430/\u041F1 \u041A.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7467f6a50318fdd479f097448dc6ec24
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u042D\u043C\u043E\u0446\u0438\u0438
+      \u0430\u0444\u0440\u043E/\u0413\u0440\u0443\u0441\u0442\u044C.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7579c6d7579b94b42be4ef01c54fc903
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0412\u0442\u043E\u0440\u043E\u0441\u0442\u0435\u043F\u0435\u043D\u043D\u044B\u0435/\u0422\u044D\u0434/\u0422\u042D\u0414
+      \u043A\u0440\u0430\u0441\u043D.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 76468f2de2add754490ff2e5b56f98ce
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u042D\u043C\u043E\u0446\u0438\u0438
+      \u0430\u0437\u0438\u0430\u0442/\u0417\u043B\u043E\u0441\u0442\u044C.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 793f658f51a8c884ab0f08b9759733ab
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0412\u0442\u043E\u0440\u043E\u0441\u0442\u0435\u043F\u0435\u043D\u043D\u044B\u0435/\u0411\u043E\u043C\u0436/\u0411\u043E\u043C\u0436\u0438\u043A
+      \u0432\u044B\u0448\u0435 \u043D\u0430\u0445\u043C\u0443\u0440.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ecba41b08f4a474e940f1ce0edc0583
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0412\u0442\u043E\u0440\u043E\u0441\u0442\u0435\u043F\u0435\u043D\u043D\u044B\u0435/\u0421\u0430\u0440\u0430/\u0441\u0430\u0440\u0430
+      \u0432\u044B\u0448\u0435 \u0443\u0434\u0438\u0432\u043B.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81cef8e26cb119f4bb7b98d50b061773
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Music/Chapter1/\u0417\u0432\u0443\u043A\u0438/\u041E\u0436\u0438\u0432\u043B\u0451\u043D\u043D\u044B\u0439
+      \u0440\u0435\u0441\u0442\u043E\u0440\u0430\u043D.mp3"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 89bf1ea111b2e70439b9cc02fd652a91
+    m_Address: Assets/StreamingAssets
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a33eb282b1fecf4980f74a810fec955
+    m_Address: "Assets/Scripts/Stories/Story_Lana/UI/\u043F\u043B\u0430\u0448\u043A\u0430
+      \u0441 \u0437\u0432\u0435\u0440\u0443\u0448\u043A\u0430\u043C\u0438 \u043A\u043E\u0442
+      \u043E\u0431\u0430\u044F\u043D\u0438\u0435.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b550b4a097b31e489ac096658348acc
+    m_Address: Assets/Scripts/Stories/Story_Lana/Music/Chapter1/knocking-the-door-268130.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c85063c74f73e54f8436ff4ff04c86e
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Music/\u041B\u0430\u043D\u0430_\u0437\u0430\u0433\u0440\u0443\u0437\u043A\u0430.mp3"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9011a92b1d91f2646b54db640b94fdae
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0412\u0442\u043E\u0440\u043E\u0441\u0442\u0435\u043F\u0435\u043D\u043D\u044B\u0435/\u0421\u0430\u0440\u0430/\u0441\u0430\u0440\u0430
+      \u0432\u044B\u0448\u0435 \u043A\u0440\u0430\u0441\u043D.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 92670104249341e4a9bc1f89a8111a90
+    m_Address: Assets/UI/VideoRenderTexture.renderTexture
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 931b45a1c117343448ad5fe4c1544b90
+    m_Address: "Assets/Scripts/Stories/Story_Lana/UI/\u043F\u0435\u0440\u04414.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 933a353111f1f29448ae124b6b6b059d
+    m_Address: Assets/StreamingAssets/introvideo/Katerina_ru.mp4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 97fd66bd8992bcd4682fa2047aced648
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u042D\u043C\u043E\u0446\u0438\u0438
+      \u0430\u0444\u0440\u043E/\u0411\u0440\u043E\u0432\u0438\u0412\u0432\u0435\u0440\u0445.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 98132b61b5986d44a8eee2560bb8a807
+    m_Address: Assets/StreamingAssets/introvideo/VideoRenderTextureWardrobe.renderTexture
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 98e52838cd460e240a8ff38dacd69cc8
+    m_Address: "Assets/StreamingAssets/\u0444\u043E\u043D\u0437\u0432\u0451\u0437\u0434\u044B_optimized.mp4"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b6cfd61ef7be2c46a419874e294e219
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Music/Chapter1/\u0412\u0438\u0431\u0440\u0430\u0446\u0438\u044F
+      \u0442\u0435\u043B\u0435\u0444\u043E\u043D\u0430.mp3"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d353ae7aac147a418e3a40c12911540
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u042D\u043C\u043E\u0446\u0438\u0438
+      \u0430\u0437\u0438\u0430\u0442/\u041A\u0440\u0430\u0441\u043D\u0435\u0435\u0442.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a06c4691f0ec9674fafae4ca8ba67fdb
+    m_Address: "Assets/Scripts/Stories/Story_Lana/UI/\u0437\u0430\u043A\u0430\u0440\u044E\u0447\u043A\u0438.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0b609e4b16bb9d4e851cbcbf1f0a2a4
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u042D\u043C\u043E\u0446\u0438\u0438
+      \u0430\u0437\u0438\u0430\u0442/\u0423\u0445\u043C\u044B\u043B\u043A\u0430.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a23c32886fa79a041a625a6c5665488c
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u041F\u0440\u0438\u0447\u0451\u0441\u043A\u0438
+      \u0433\u0433/1 \u0433\u043B\u0430\u0432\u0430/\u041F3 \u0411.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a35230ab81390364c9f030f52a096c55
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Music/Chapter1/\u043D\u0430\u0431\u043E\u0440
+      \u043D\u0430 \u043A\u043B\u0430\u0432\u0438\u0430\u0442\u0443\u0440\u0435.mp3"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a70093fb1f70874448d884972baec844
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0412\u0442\u043E\u0440\u043E\u0441\u0442\u0435\u043F\u0435\u043D\u043D\u044B\u0435/\u0422\u044D\u0434/\u0422\u042D\u0414.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a89aedb22429c0d409b316132e30126e
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u042D\u043C\u043E\u0446\u0438\u0438
+      \u0430\u0444\u0440\u043E/\u0421\u043B\u0451\u0437\u044B.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a8ad4b9e3bd1fa5439ce912a544e4894
+    m_Address: "Assets/Scripts/Stories/Story_Lana/UI/\u0430\u0432\u0442\u043E\u04401.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab6aae53c44a17e4888d1be6fc2f2ed6
+    m_Address: Assets/StreamingAssets/introvideo/VideoRenderTexture.renderTexture
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: abe61969bb89f0944b637babe87387f0
+    m_Address: "Assets/UI/\u0438\u0441\u0442\u043E\u0440\u0438\u044F \u0444\u043E\u043D
+      \u0441\u0442\u0430\u0442\u044B4.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aedc23b8081433e4cb3b45ace310c30f
+    m_Address: Assets/Scripts/Stories/Story_Lana/Background/VideoRenderTexture.renderTexture
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: afc991ba9941e4441940467d346985f1
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Background/Chapter1/\u0421\u0435\u0440\u044B\u0439
+      \u0433\u043E\u0440\u043E\u0434.mp4"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b3f721df9322c184f8561cad1e5bc112
+    m_Address: Assets/StreamingAssets/introvideo/VideoRenderTexture2.renderTexture
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b3fa50ca21bccdc44a551437cd182c7f
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u042D\u043C\u043E\u0446\u0438\u0438
+      \u0430\u0437\u0438\u0430\u0442/\u0428\u0438\u0440\u0423\u043B\u044B\u0431\u043A\u0430.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b4269e372628e07438dd3ca4d1d4511b
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0412\u0442\u043E\u0440\u043E\u0441\u0442\u0435\u043F\u0435\u043D\u043D\u044B\u0435/\u0421\u0430\u0440\u0430/\u0441\u0430\u0440\u0430
+      \u0432\u044B\u0448\u0435.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b54a73bccdd8aea46b1891341e2b7188
+    m_Address: "Assets/Scripts/Stories/Story_Lana/UI/\u043F\u043B\u0430\u0448\u043A\u0430_\u0441_\u0437\u0432\u0435\u0440\u0443\u0448\u043A\u0430\u043C\u0438_\u043B\u0438\u0441\u0430_\u0425\u0438\u0442\u0440\u043E\u0441\u0442\u044C.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b7c1fc1baaf66fe4abcc80710fbc4f6b
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Music/Chapter1/\u0420\u0435\u0441\u0442\u043E\u0440\u0430\u043D
+      (1).mp3"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b8085620ff520ca418aa8076d41a5a6a
+    m_Address: "Assets/Scripts/Stories/Story_Lana/UI/\u043F\u0435\u0440\u04415.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b92662caf0f922244b68f16c06b96c8e
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u042D\u043C\u043E\u0446\u0438\u0438
+      \u0430\u0437\u0438\u0430\u0442/\u0423\u043B\u044B\u0431\u043A\u0430.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bad9813836890a844b5f9419521ff4cc
+    m_Address: "Assets/StreamingAssets/\u0444\u043E\u043D\u0437\u0432\u0451\u0437\u0434\u044B.mp4"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb0eb69a61c267b4094c6b07469e539e
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u041F\u0440\u0438\u0447\u0451\u0441\u043A\u0438
+      \u0433\u0433/1 \u0433\u043B\u0430\u0432\u0430/\u041F3 \u041A.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bd214aa8e8552d74992921ba1bfb7546
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u042D\u043C\u043E\u0446\u0438\u0438
+      \u0430\u0444\u0440\u043E/\u041D\u0430\u0445\u043C\u0443\u0440\u0435\u043D\u043D\u0430\u044F.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bd3a9aa45b93dfd4f8e1d74116787ec6
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u042D\u043C\u043E\u0446\u0438\u0438
+      \u0430\u0437\u0438\u0430\u0442/\u0411\u0440\u043E\u0432\u0438\u0412\u0432\u0435\u0440\u0445.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bdfeb41b9a971144fa6c70c6ef15666a
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u041E\u0434\u0435\u0436\u0434\u0430
+      \u0433\u0433/1111\u043F\u043B\u044E\u0441 \u043A\u043E\u044B\u0430\u0442.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be3e840eddcf3eb4f801ea348624e4d6
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Background/Chapter1/\u0412\u043D\u0443\u0442\u0440\u0438
+      \u0446\u0435\u0440\u043A\u0432\u0438.mp4"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: beadfeb67238d1f4db08c1099f95eb0b
+    m_Address: "Assets/Scripts/Stories/Story_Lana/UI/\u0411\u0430\u043B\u0430\u043D\u0441
+      \u0432\u0430\u043B\u044E\u0442\u044B.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c16521fe4f707c9478c36c343b022aee
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0412\u0442\u043E\u0440\u043E\u0441\u0442\u0435\u043F\u0435\u043D\u043D\u044B\u0435/\u0421\u0430\u0440\u0430/\u0441\u0430\u0440\u0430
+      \u0432\u044B\u0448\u0435 \u0433\u0440\u0443\u0441\u0442\u044C.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c390d9c9c7975d44eb731165d0ccc51d
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0412\u0442\u043E\u0440\u043E\u0441\u0442\u0435\u043F\u0435\u043D\u043D\u044B\u0435/\u0421\u0438\u043B\u0443\u044D\u0442\u044B
+      1 \u0433\u043B\u0430\u0432\u0430/\u0441\u0438\u043B\u0443\u044D\u0442 \u0422\u042D\u0414.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c4756a8024f612144ac23a2fc2e2fcf6
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u042D\u043C\u043E\u0446\u0438\u0438
+      \u0430\u0444\u0440\u043E/\u0417\u043B\u043E\u0441\u0442\u044C.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6c72ffe07c09d040a89abf3fe427751
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0412\u0442\u043E\u0440\u043E\u0441\u0442\u0435\u043F\u0435\u043D\u043D\u044B\u0435/\u0422\u044D\u0434/\u0422\u042D\u0414
+      \u0438\u0441\u043F\u0443\u0433.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c8da9ad89ec323d43932ad55545fb3e9
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u042D\u043C\u043E\u0446\u0438\u0438
+      \u0430\u0444\u0440\u043E/\u0412\u0437\u0433\u043B\u044F\u0434\u0412\u0441\u0442\u043E\u0440.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c90a92c4c96b8ec49842e685407d897e
+    m_Address: "Assets/StreamingAssets/\u0420\u0423\u0421 3 \u043E\u0431\u043B\u043E\u0436\u043A\u0430.mp4"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c977cf17d8e01d545879808f8b81bfac
+    m_Address: "Assets/UI/\u0438\u0441\u0442\u043E\u0440\u0438\u044F \u0444\u043E\u043D
+      \u0441\u0442\u0430\u0442\u044B2.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9ea249d0c9255743a65166c7bf5e056
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u042D\u043C\u043E\u0446\u0438\u0438
+      \u0431\u0435\u043B\u0430\u044F/\u041E\u0442\u0432\u0435\u0434\u0412\u0437\u0433\u043B\u044F\u0434\u041D\u0430\u043F\u0440\u0430\u0432\u043E.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca5103ecdb50a9a4280aea23e5262651
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0412\u0442\u043E\u0440\u043E\u0441\u0442\u0435\u043F\u0435\u043D\u043D\u044B\u0435/\u0422\u044D\u0434/\u0422\u042D\u0414
+      \u0432 \u0441\u0442\u043E\u0440.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc5125b216b26594bbf57b6efcdb11d8
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Background/Chapter1/\u0413\u043E\u0440\u043E\u0434
+      \u0434\u0435\u043D\u044C \u0441\u043E\u043B\u043D\u0446\u0435.mp4"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d0b7e5184067c5c4ba667086c35960d0
+    m_Address: "Assets/Scripts/Stories/Story_Lana/UI/\u0430\u0432\u0442\u043E\u04404.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d11fb16126bf4954fac8c6a5ab345569
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u041F\u0440\u0438\u0447\u0451\u0441\u043A\u0438
+      \u0433\u0433/1 \u0433\u043B\u0430\u0432\u0430/\u041F1 \u0411.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d16b10952006d5746869a9c02bb72270
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u041D\u0435\u0433\u0440.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d411be9ff0ba3074da419284e93c982a
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u042D\u043C\u043E\u0446\u0438\u0438
+      \u0430\u0437\u0438\u0430\u0442/\u0412\u0441\u0442\u043E\u0440\u043E\u043D\u0443\u041D\u0430\u043F\u0440\u0430\u0432\u043E.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d8002c41c09026646b4af234a090210c
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u042D\u043C\u043E\u0446\u0438\u0438
+      \u0430\u0444\u0440\u043E/\u0412\u0437\u0433\u043B\u044F\u0434\u0412\u0441\u0442\u043E\u0440\u0411\u0440\u043E\u0432\u044C.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d913b4862a149da49875e0128c18799c
+    m_Address: Assets/StreamingAssets/introvideo/Katerina_en.mp4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da708d87310013d40be010eda8bea80f
+    m_Address: "Assets/Scripts/Stories/Story_Lana/UI/\u0413\u04131.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db28977c69292cb4e9823e0105f7a98f
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u041F\u0440\u0438\u0447\u0451\u0441\u043A\u0438
+      \u0433\u0433/1 \u0433\u043B\u0430\u0432\u0430/\u041F1 \u0420.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df70de1e71fc965448e9bf22eed850cc
+    m_Address: "Assets/Scripts/Stories/Story_Lana/UI/\u041F\u043B\u0430\u0448\u043A\u0438
+      3.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e0ce14c8856435f4da72aa29f3389d75
+    m_Address: "Assets/Scripts/Stories/Story_Lana/UI/\u0413\u04134.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e13a0f858d2790249bfaef91732c956f
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u041F\u0440\u0438\u0447\u0451\u0441\u043A\u0438
+      \u0433\u0433/1 \u0433\u043B\u0430\u0432\u0430/\u041F4 \u0420.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e433ca6ee0204f343a8d4ee05499bb75
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u042D\u043C\u043E\u0446\u0438\u0438
+      \u0430\u0437\u0438\u0430\u0442/\u0421\u043B\u0451\u0437\u044B.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e473e5fa0a1200046a5a9867f292929e
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u042D\u043C\u043E\u0446\u0438\u0438
+      \u0431\u0435\u043B\u0430\u044F/\u0411\u0440\u043E\u0432\u0438\u0412\u0432\u0435\u0440\u0445.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e47cf05d0c112d9429d894ae6582e19a
+    m_Address: "Assets/UI/\u0438\u0441\u0442\u043E\u0440\u0438\u044F \u0444\u043E\u043D
+      \u0441\u0442\u0430\u0442\u044B1.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4898adde43fb3f4b87b233c55e19419
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u0415\u0432\u0440\u043E\u043F\u0430.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5842314a9ae9af4da73a88aac15e846
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0412\u0442\u043E\u0440\u043E\u0441\u0442\u0435\u043F\u0435\u043D\u043D\u044B\u0435/\u0421\u0438\u043B\u0443\u044D\u0442\u044B
+      1 \u0433\u043B\u0430\u0432\u0430/\u041F\u0440\u0435\u043F\u043E\u0434 \u043F\u043B\u0430\u0449
+      (1).png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e915581426a8d7a4380ca45ab8b7edaf
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u041E\u0434\u0435\u0436\u0434\u0430
+      \u0433\u0433/1 \u0433\u043B\u0430\u0432\u0430/\u041A\u0440\u0430\u0441\u043D\u044B\u0439
+      \u0441\u0432\u0438\u0442\u0435\u0440.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eb6d8beedcb780a488bf1ecc35cd882a
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Background/Chapter1/\u0410\u043A\u0430\u0434\u0435\u043C\u0438\u044F
+      \u0433\u043B\u0430\u0432\u043D\u044B\u0439 \u0444\u043E\u043D.mp4"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ebb6b99604e077c4290f6b625027887c
+    m_Address: Assets/StreamingAssets/introvideo/VideoRenderTexture1.renderTexture
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ed08edcc76166104d8ff19a3269dddb8
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Music/Chapter1/\u0433\u043E\u0440\u043E\u0434
+      \u0441 \u0441\u0438\u0440\u0435\u043D\u0430\u043C\u0438.mp3"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee07c5dfd1069e249a01f4ae6e9e75d9
+    m_Address: "Assets/Scripts/Stories/Story_Lana/UI/\u0430\u0432\u0442\u043E\u04407.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f033d150f5e92654dab1030ee3e09418
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u042D\u043C\u043E\u0446\u0438\u0438
+      \u0431\u0435\u043B\u0430\u044F/\u0417\u0430\u0434\u0443\u043C\u0447\u0438\u0432\u043E\u0441\u0442\u044C.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f071218c09510f0468cabf708bf81a6f
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u042D\u043C\u043E\u0446\u0438\u0438
+      \u0430\u0444\u0440\u043E/\u0417\u0430\u0434\u0443\u043C\u0447\u0438\u0432\u043E\u0441\u0442\u044C.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f08a37cc9dd981d4097683d5aa0f207f
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u042D\u043C\u043E\u0446\u0438\u0438
+      \u0431\u0435\u043B\u0430\u044F/\u0417\u043B\u043E\u0441\u0442\u044C.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f27064a0961cb4344874dce956f713ff
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u042D\u043C\u043E\u0446\u0438\u0438
+      \u0430\u0437\u0438\u0430\u0442/\u0411\u0440\u043E\u0432\u044C\u0412\u0432\u0435\u0440\u0445.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f68b8520d8087394fa392708d450e97a
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u041E\u0434\u0435\u0436\u0434\u0430
+      \u0433\u0433/1 \u0433\u043B\u0430\u0432\u0430/\u0431\u0435\u043B\u044B\u0439
+      \u043F\u0438\u0434\u0436\u0430\u043A.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6feee11b44fd944a8876a07a1957a52
+    m_Address: "Assets/Scripts/Stories/Story_Lana/UI/\u043F\u0435\u0440\u04411.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f88e6749d40aa6a4ea702a80bc69b243
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0412\u0442\u043E\u0440\u043E\u0441\u0442\u0435\u043F\u0435\u043D\u043D\u044B\u0435/\u0414\u043E\u043C\u0438\u043D\u0438\u043A/\u041F\u0440\u0435\u043F\u043E\u0434
+      \u0440\u0443\u0431\u0430\u0448\u043A\u0430.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f99a244a53c284b499a3f45676fc96e2
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u042D\u043C\u043E\u0446\u0438\u0438
+      \u0430\u0437\u0438\u0430\u0442/\u0417\u0430\u0434\u0443\u043C\u0447\u0438\u0432\u043E\u0441\u0442\u044C.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f9b42f687e0f8e244b609b863300cde0
+    m_Address: "Assets/Scripts/Stories/Story_Lana/UI/\u0413\u04133.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f9c90b7c843f5a54c81fb248a3e25472
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0412\u0442\u043E\u0440\u043E\u0441\u0442\u0435\u043F\u0435\u043D\u043D\u044B\u0435/\u041C\u0430\u043C\u0430
+      \u0422\u044D\u0434\u0430/\u041C\u0422\u044D\u0434\u0430 \u0433\u0440\u0443\u0441\u0442\u044C.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fa31bb96d09668b44a213ed3db7d8dc2
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Music/Chapter1/\u041D\u0430\u0447\u0430\u043B\u043E
+      \u0438\u0441\u0442\u043E\u0440\u0438\u0438.mp3"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fa5881fae643b7f46880b0a98909759b
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Music/Chapter1/\u0412\u0435\u0442\u0435\u0440.mp3"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fdd7521b481141345b4c0cc6b6e2252d
+    m_Address: "Assets/Scripts/Stories/Story_Lana/UI/\u043F\u0435\u0440\u04412.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fed1937f61ae3fe4e88077f815d0c799
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Sprites/\u0433\u0433/\u041F\u0440\u0438\u0447\u0451\u0441\u043A\u0438
+      \u0433\u0433/1 \u0433\u043B\u0430\u0432\u0430/\u041F4 \u041A.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff2cbc5869f97174abec8bd218b49369
+    m_Address: "Assets/Scripts/Stories/Story_Lana/Background/Chapter1/\u041F\u0440\u0438\u0445\u043E\u0436\u0430\u044F.mp4"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 27a959ebf3bb53b4aa7117a47b363baf, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 156daa4c5656fc745bde850e3504023b, type: 2}
+    - {fileID: 11400000, guid: fda6a616927e51e4096d42d7f69fbc03, type: 2}

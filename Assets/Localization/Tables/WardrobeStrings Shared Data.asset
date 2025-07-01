@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: WardrobeStrings Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: WardrobeStrings
+  m_TableCollectionNameGuidString: fcf88b0d1a547474cba21d489fa56766
+  m_Entries:
+  - m_Id: 48386445312
+    m_Key: Type1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131962146816
+    m_Key: Type2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 255132078080
+    m_Key: Type3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2590801563648
+    m_Key: Hair1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2792933462016
+    m_Key: Hair2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2817692438528
+    m_Key: Hair3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3858194403328
+    m_Key: Hair4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3997252358144
+    m_Key: Hair5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 803207107219456
+    m_Key: Hair6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 803310924632064
+    m_Key: Hair7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 803450016141312
+    m_Key: Hair8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 803518324576256
+    m_Key: Hair9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 803611924664320
+    m_Key: Hair10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 803667776016384
+    m_Key: Hair11
+    m_Metadata:
+      m_Items: []
+  - m_Id: 804864369004544
+    m_Key: SelectAll
+    m_Metadata:
+      m_Items: []
+  - m_Id: 805368608231424
+    m_Key: Dress1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 805390984843264
+    m_Key: Dress2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 805418012938240
+    m_Key: Dress3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 805442184712192
+    m_Key: Dress4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1189909214695424
+    m_Key: Stranger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1478946735427584
+    m_Key: Fav1
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 3067844479625199618
+  references:
+    version: 2
+    RefIds:
+    - rid: 3067844479625199618
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1739544222706

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "229616125935",
+    "firebase_url": "https://very-bad-stories-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "very-bad-stories",
+    "storage_bucket": "very-bad-stories.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229616125935:android:e2405deb60e390dfc5181a",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.VBS"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "229616125935-mq8ve9rj46ni1vk08corb0rhb25e41kn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuf23KA2qKnqe370gpBinvuJMxwsIXttg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "229616125935-mq8ve9rj46ni1vk08corb0rhb25e41kn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "229616125935-1256sl70173v0grj7udt9i6s7cugjiil.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.DefaultCompany.VBS"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

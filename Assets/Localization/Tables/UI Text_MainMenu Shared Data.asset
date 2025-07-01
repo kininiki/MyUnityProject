@@ -1,0 +1,252 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: UI Text_MainMenu Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: UI Text_MainMenu
+  m_TableCollectionNameGuidString: 71675d7be13eea741b6c32e79904d77c
+  m_Entries:
+  - m_Id: 88819535872
+    m_Key: Notification
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2369476530176
+    m_Key: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4316422115328
+    m_Key: Story0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4490657697792
+    m_Key: Story1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4737643483136
+    m_Key: Story2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4790466547712
+    m_Key: Story3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8816641871872
+    m_Key: Enter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1476276163350528
+    m_Key: UID_copied
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1478384547696640
+    m_Key: Yoo_Kassa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21343342026461184
+    m_Key: Loading
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23590145174179840
+    m_Key: StartStory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24288714394865664
+    m_Key: Feed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32293431846801408
+    m_Key: Rubies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32293558883880960
+    m_Key: Elixirs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32293625007083520
+    m_Key: Catmoney
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33248894977478656
+    m_Key: Special offer!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33249897541963776
+    m_Key: Rubies900
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33624321168412672
+    m_Key: Rubies70
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33624545446236160
+    m_Key: Rubies150
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33624775340232704
+    m_Key: Rubies300
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33638993422618624
+    m_Key: Elixirs5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33639338186018816
+    m_Key: Elixirs15
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36483462706663424
+    m_Key: Comingsoon!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36492554305179648
+    m_Key: "\rExchange"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36551706431885312
+    m_Key: Okey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39527419640451072
+    m_Key: Watch ads
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39529089724223488
+    m_Key: Watch ads1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39531365205446656
+    m_Key: Get1ruby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39548932997419008
+    m_Key: Get1elixir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39552717597609984
+    m_Key: Get1catmoney
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39793827347599360
+    m_Key: Look for promotional
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39794974229696512
+    m_Key: Enter promo code
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39796650357460992
+    m_Key: Confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39885727052238848
+    m_Key: "\rClickOnYourUID"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39888023349792768
+    m_Key: SoundInGame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44553677923323904
+    m_Key: FeedYourPet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44554558471311360
+    m_Key: Meow!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44557979811221504
+    m_Key: NewFeatures
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44560052460097536
+    m_Key: QuitTheGame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44594254211616768
+    m_Key: GoToTheAdvertising
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44596610575798272
+    m_Key: DescriptionLana
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44598393427628032
+    m_Key: In development!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44598757321248768
+    m_Key: CollectionsPreparing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44607191315812352
+    m_Key: WelcomeTo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44865197639110656
+    m_Key: User agreement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44865329730326528
+    m_Key: Privacy Policy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44888655836123136
+    m_Key: PinkZoneWelcome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44890002459365376
+    m_Key: pinkZoneEveryday
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45164570679873536
+    m_Key: Catmoney3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47750604483629056
+    m_Key: Choose
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47845785799135232
+    m_Key: Buy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49931492613066752
+    m_Key: Antony
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49933782325563392
+    m_Key: Catmoney10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49933900340695040
+    m_Key: Catmoney25
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93491678845767680
+    m_Key: Support
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96951752515817472
+    m_Key: lvl
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8061262043475345456
+  references:
+    version: 2
+    RefIds:
+    - rid: 8061262043475345456
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1728158952651

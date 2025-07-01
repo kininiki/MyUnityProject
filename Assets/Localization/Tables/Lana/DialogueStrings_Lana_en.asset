@@ -1,0 +1,1577 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: DialogueStrings_Lana_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 87fe37cc5976a724399a57f0ccd315af, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 275541561344
+    m_Localized: Father Victor once said that the ideal woman is one who wears long
+      skirts, follows the laws of God and keeps herself innocent until the wedding.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1330882973696
+    m_Localized: The perfect woman in suburban Nashville is me. With the pressed
+      white collar of a strict dress and hiding all the curves of a light knitted
+      sweater that will warms you on a cold October morning.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1429751107584
+    m_Localized: '<b>Settings
+
+
+      <i>Before your story begins, choose the appearance
+      of the main heroine.<i><b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14951805521920
+    m_Localized: '       '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15898241830912
+    m_Localized: '"It''s time for Sunday service."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16123140411392
+    m_Localized: I put on a pair of modest, low-heeled shoes and put the Bible in
+      my purse before looking in the mirror and seeing the mask I've been wearing
+      for the last year and a half.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16276228313088
+    m_Localized: I choose the most angelic smile I can muster, and fix a horribly
+      annoying lock of hair that escapes from my haircut perfect as ever.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16494164348928
+    m_Localized: "Mumbling under my breath, I close the door of my rented house behind
+      me \u2014 this damned shack has wasted most of the money I saved up after I
+      left the orphanage."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16802688962560
+    m_Localized: "\"Never mind, Lana, this nightmare will be over soon. Ted had almost
+      set a date for the wedding. Be patient and soon you\u2019ll move into his house.\""
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16921282908160
+    m_Localized: "\"This naive idiot believes that you are his destiny. No prenuptial
+      agreements \u2013 all for true love.\""
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17031127535616
+    m_Localized: "\"His love for me and mine \u2013 for his money.\""
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17170898522112
+    m_Localized: And there's Ted's mother on the curb, waiting for me. What an obnoxious
+      person! If it hadn't been for her, they would have been married in the spring.
+      I wave my hand and smile as if I've received a million dollar prize.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17184970412032
+    m_Localized: Good morning, Mrs. Lewis. Sorry I'm late, I was praying. I asked
+      God to bless the service and my day with Ted.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17199914717184
+    m_Localized: 'It''s okay, honey. I''ve heard all about your plans to go to the
+      beach. I won''t say I approve: it is getting cold, and Ted might get sick.
+      Why not spend some time in a restaurant?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17213202272256
+    m_Localized: "\u201COf course you've heard of it \u2014 you've poked your nose
+      everywhere! Maybe you should have date your son.\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17891001798656
+    m_Localized: "\u201CThe big kid is about to turn forty, and you're still worried
+      that the bad girls will take him to the beach to catch a cold.\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17972069306368
+    m_Localized: I try to make my face look truly innocent and reflect the full extent
+      of my worries for her boy. I nod in agreement.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18076448755712
+    m_Localized: "I've always noticed the wisdom in You. That's why Ted is so wonderful
+      \u2014 just like his mother. I think going to a restaurant is a great idea."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18178844299264
+    m_Localized: The old woman grunts with satisfaction, then condescendingly lowers
+      her tense shoulders and puts her arm around me at the entrance to St. Paul's
+      Church.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18263254667264
+    m_Localized: Lana
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18597226123264
+    m_Localized: Mrs. Lewis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18689614057472
+    m_Localized: Ted
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4374310643732480
+    m_Localized: The only reason I still haven't lost my mind about Sunday services
+      is because Father Victor is standing next to the altar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4374318256394240
+    m_Localized: "A young servant of God to whom I\u2019m ready to confess at least
+      every night long."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4374321691529216
+    m_Localized: "\u201CHoly Father, I have sinned...\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4374324522684416
+    m_Localized: I hide my dirty thoughts behind a dazzling smile as I help Mrs.
+      Lewis take a seat closer to the window.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4374327475474432
+    m_Localized: "Where\u2019s Ted?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4374412619845632
+    m_Localized: My boy has been working so hard lately to save up for the wedding...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4374416193392640
+    m_Localized: I immediately notice the reproachful tone in her otherwise raspy
+      voice, but I continue to play the role and took her hand to show support.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4374420299616256
+    m_Localized: 'Clue
+
+
+      Some choices affect the future of your character and
+      give you the opportunity to get stats: <b>Trick, Charm, Light, Darkness<b>.
+      By accumulating the required amount, you can significantly change the plot.
+      Let''s try it!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4374423122382848
+    m_Localized: To praise parenting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4374426138087424
+    m_Localized: 'To admire Ted''s tenacity '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376031369531392
+    m_Localized: 'To point out the importance of the Sunday service '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376176869937152
+    m_Localized: You brought him up so well! Our love and happiness are all due to
+      You. Thank You for guiding him. Let him sleep it off, and I'll repeat the speech
+      to him over lunch.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376180279906304
+    m_Localized: <i>Ted's mom is pleased to hear you say that<i>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376237330829312
+    m_Localized: He's so good! So much effort for our happiness... I understand,
+      let him gain strength and rest a little longer today.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376240484945920
+    m_Localized: <i>Ted's mom is  pleased to hear you say that<i>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376243597119488
+    m_Localized: "I understand, let him rest. But you've always said how important
+      it is not to miss a service. Next time, I\u2019ll hope we could listen to the
+      word of God together."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376298945155072
+    m_Localized: <i>Ted's mom isn't happy with your insistence<i>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376303487586304
+    m_Localized: "\u201CAnd I'll rest when I sue half of his house...\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376306620731392
+    m_Localized: Father Victor taps on the microphone, checking the readiness of
+      the equipment and starting his speech. I don't listen to a word, but my gaze
+      is drawn to his deep brown eyes and well-defined cheekbones.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4376309795819520
+    m_Localized: "From the outside, it seems that I feel the meaning and nod to the
+      righteousness of his thoughts, but in fact, my head is drawing pictures that
+      you can\u2019t tell the children about."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4377769048707072
+    m_Localized: "Sin is darkness, and if we reject it, we\u2019ll go to the Light.
+      The darkness tempts everyone, but it is up to us whether we are ready to let
+      it in."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4377772701945856
+    m_Localized: The audience begins to clap in praise, and I come to my senses,
+      realizing that the speech is coming to an end. It makes me feel a little sad
+      that the moment of meeting Ted is coming soon.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4377775918977024
+    m_Localized: Father, what can you do if you can't see the light? There are days
+      when there is nothing left but darkness.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4377778997596160
+    m_Localized: I roll my eyes, chuckling to myself.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4377782176878592
+    m_Localized: "\u201CA glass of whiskey and new shoes, that's the whole solution.\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4377785020616704
+    m_Localized: "If it seems that there is no other way, then pray. Sincere prayer
+      is sure to bring light, God doesn\u2019t leave anyone behind."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4377787742720000
+    m_Localized: The audience starts cheering, and Mrs. Lewis squeezes my shoulder
+      to indicate that I'm ready to leave. It seems that she attends services for
+      the sake of maintaining a good reputation. I doubt she's moved by the sermons.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4377791408541696
+    m_Localized: I take one last look at Father Victor and sigh dreamily. As if sensing
+      my desire to stay, he turns to me and looks straight into my soul, sending
+      shivers through my entire body.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4378516377210880
+    m_Localized: "Clue\n\nSometimes you will see elections for the \u201Ccurrency
+      icon\u201D. They will allow you to expand the plot, get more stat points or
+      develop a stronger relationship."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4378572383752192
+    m_Localized: 'To linger '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4379455473487872
+    m_Localized: To remember about Mrs. Lewis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4379556568797184
+    m_Localized: "I know that look \u2014 interested, almost carnivorous, hinting
+      at something you shouldn't say out loud when you're in church."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4379574960820224
+    m_Localized: He smiles at the corners of his mouth, barely noticeable, and my
+      palms got sweaty, telling me how much I feel in return.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4379579738132480
+    m_Localized: "\u201CThe last time I felt this way was about five years ago, when
+      I was eighteen and a guy from music school returned my feelings.\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4379589422780416
+    m_Localized: I saw people approach him with questions, but he continues to stare
+      at me as if mesmerized. Yes, it's definitely exactly <i>the same<i> feeling.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4379593646444544
+    m_Localized: "\u201COh, Lana, did you really get in...?\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4379596897030144
+    m_Localized: It became uneasy with the power of my own lust, but where in the
+      Bible is it written that it is forbidden to enjoy life? Although... yes, it
+      is indeed written.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4379599992426496
+    m_Localized: "\u201CDon't covet on your neighbor, blah blah... Or whatever it
+      was?\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4379603700191232
+    m_Localized: <i>Ted's mom noticed your attitude towards Father Victor<i>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4379775914119168
+    m_Localized: Ted's mom pushes me toward the door, telling me I'm too slow, and
+      I gave up, leaving the church.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4770018857226240
+    m_Localized: Father Victor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4770137497309184
+    m_Localized: Sarah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4770513743155200
+    m_Localized: Waiter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4770675794284544
+    m_Localized: Man
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4770721474449408
+    m_Localized: Stranger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5100576166547456
+    m_Localized: "It doesn't get any warmer outside \u2013 October is too cold this
+      year."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5100715228696576
+    m_Localized: "\u201CI need to go home and change my clothes, otherwise I'll be
+      completely cold.\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5100815355121664
+    m_Localized: After saying goodbye to the hypocritical old hag, I run into the
+      warm house to choose things for the weather. Before I meet Ted, I have a piano
+      lesson scheduled for a student from the local school.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5100896485543936
+    m_Localized: 'The stupid curl had come loose again. No, that won''t do: you need
+      to do something with your hair.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5100971861381120
+    m_Localized: 'Clue
+
+
+      There is always a wardrobe available in the game,
+      where you can easily change the images of your heroine and favorites'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5101056972197888
+    m_Localized: ": \u201CWhen I\u2019ll get the money, I'll burn the hell out of
+      my wardrobe and finally get some cleavage. This suburb been driven me nuts
+      for a long time\u2026\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5101143567798272
+    m_Localized: You have to take a bus to get to the music school. Fortunately,
+      there are a few people on Sunday. I used to have my own car, but the expenses
+      exceed my budget, so I decided to give it up.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5101212857700352
+    m_Localized: "\u201CI miss the days when the allowance was high.\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5101293350588416
+    m_Localized: Outside the window clouds begin to gather, hinting at rain. Maybe
+      it's a good thing we're not going to the beach.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5101368411852800
+    m_Localized: I quickly text Ted about the change in our plans and frowningly
+      looked at the sky.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5101538096615424
+    m_Localized: "\u201CI don't remember October being this cold in Tennessee.\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5101588277268480
+    m_Localized: The city, however, is greeted with warmth and no strong wind, and
+      Beethoven's Symphony No. 9 starts playing in my head. I'm already looking forward
+      to the results of my conversation with my future temporary husband.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5101651091165184
+    m_Localized: He promised me to set a date next month, fast painting and paperwork.
+      And by the spring, I will solemnly announce the divorce on the grounds of his
+      infidelity.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5101727494606848
+    m_Localized: I see myself crying and laughing in my heart. It should be an amazing
+      performance!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5101820364886016
+    m_Localized: However, his mother will still accuse me of not being able to keep
+      me and being a bad wife. I might even be able to slap her, mmm.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5101890262962176
+    m_Localized: According to preliminary estimates, I can sue Ted for more than
+      a hundred thousand dollars. The appraiser said two hundred, but I don't want
+      to get my hopes up.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5101950820323328
+    m_Localized: "\u201CShould I pretend I'm pregnant?.. This will raise the bets.\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5102040586817536
+    m_Localized: I imagined myself with a rounded belly and wince at the idea, shaking
+      my head in disgust.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5102125685051392
+    m_Localized: "\u201COn the other hand, I can plead nausea and not have sex with
+      him. And then play a miscarriage and collect for moral damage.\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5102214201643008
+    m_Localized: "\u201CI am such a bitch\u2026 Wonderful!\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5102284540121088
+    m_Localized: I saw that Sarah, my seventeen-year-old student, is already standing
+      at the entrance to the music school. Cute little girl, she didn't miss a single
+      class.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5102357407764480
+    m_Localized: Hello, Sarah. Today is a great day for Rachmaninoff, isn't it?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5102417411477504
+    m_Localized: Miss Vail, can I?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5102478409240576
+    m_Localized: Nothing in this world is complicated if you take it apart. Just
+      a little patience.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5102553315315712
+    m_Localized: "\u201CI've been waiting for this day for a year and a half, going
+      through all the stages. It's only a short time before my symphony reaches its
+      climax.\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5102645925548032
+    m_Localized: I open the door to my regular dark office and head for the curtains
+      first.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5102732114300928
+    m_Localized: "When I\u2019m alone, it is more pleasant for me to be inconspicuous,
+      play for myself and give myself up to the eternal and unshakable world of music.
+      But I always open the windows for the students, as well as the soul."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5102784320802816
+    m_Localized: Do you want me to play it for you? You will understand how close
+      the work is to you. You can always change the selection.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5102840503504896
+    m_Localized: Sarah smiles and sits down next to me in anticipation. I knew she'd
+      want to hear it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5102909566914560
+    m_Localized: Let it be in Gm.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5102973504884736
+    m_Localized: My fingers fall lightly on the keys and begin to move in the frenzied
+      rhythm of my life.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5103052550737920
+    m_Localized: From now on, I'm no longer in the classroom, but somewhere far away
+      in the sky, flying freely like a bird, feeling every stream of howling wind.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5103131323961344
+    m_Localized: I close my eyes and give myself up to the feeling where every sound
+      is new hight for me.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5103192191700992
+    m_Localized: 'The melody flows like a river, becoming a stormy waterfall, taking
+      you as far as possible: to the unknown shores of exotic islands, far beyond
+      the planet ...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5103241810317312
+    m_Localized: My fingertips tingle with a force that accelerates the rhythm. And
+      now I can't stop, I'm rushing forward like a comet...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5103301902110720
+    m_Localized: I stop abruptly, realizing that... I can't fly any further than
+      my cage.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5103353479467008
+    m_Localized: I am the bird that chose to live in captivity in order to outwit
+      the owner and take his house. Literally.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5103407271415808
+    m_Localized: I seem to freeze and stare at nothing, lost in thought.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5103582714957824
+    m_Localized: Miss Vail, it was... Magnificently great! I don't know how many
+      years it will take me learn to play like you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5103663056850944
+    m_Localized: Take my place, honey. Let's start with the analysis of the first
+      part. I believe in you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5103709072560128
+    m_Localized: The sky turns gray, and I listen to the girl's timid game, I remember
+      myself at her age. I didn't get a chance to be as kind and pure as she was.
+      In my time, you had to learn how to survive, and I did.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5103788000972800
+    m_Localized: I played like the last time. Whether it's a holiday performance
+      or a lie to hide the blame for a broken vase.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5103849292337152
+    m_Localized: People are also a kind of sheet music. Just click on the right keys
+      to make an intriguing song sound. So we are nearing cadence.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5103910009081856
+    m_Localized: 'Notification
+
+
+      <i>Cadence is the end of a piece of music<i>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5104084546654208
+    m_Localized: My phone starts ringing with Ted's text messages, and I set it to
+      silent.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5104114150051840
+    m_Localized: "\u201CSpeak of the devil.\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5104195456634880
+    m_Localized: "\u201CGood morning, I'll be there soon. We have something important
+      to talk about.\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5104274255024128
+    m_Localized: I smile as I swipe away my messages. Finally, he will set the date
+      of the wedding.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5104326520246272
+    m_Localized: I'll celebrate this evening with a bottle of wine along with rock
+      music. Wearing headphones, of course. I don't need a rumor that my house is
+      noisy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5104378772885504
+    m_Localized: That's exactly what we're going to end for today. Well done.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5104445458124800
+    m_Localized: "\u201CAnd I'm doing great.\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5104541578989568
+    m_Localized: "\u201CWho would have thought that I would spend so much time and
+      money on it, from a \u201Crandom\u201D date to an official wedding date...\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5104606259351552
+    m_Localized: "\u201CBut this is a big catch: the entire family business, the
+      big house and a few blocks of stock have been rewritten to him.\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5104682113339392
+    m_Localized: "Sarah finishes the play, and I can't wait to get back to the restaurant
+      to hear the \u201Cunexpected\u201D news."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5105050452922368
+    m_Localized: It's almost lunchtime, and my stomach feels empty, but I've purposely
+      stayed out of breakfast for the last six months so I can fit into the gorgeous
+      and expensive wedding dress I picked out on the night of my first date with
+      Ted.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5105105826123776
+    m_Localized: "\u201CEven a lie has to be perfect.\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5105161694253056
+    m_Localized: I straighten my hair right in front of the restaurant to make sure
+      I'm irresistible and take a breathless step forward.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5105212285947904
+    m_Localized: There he is, sitting at a table in the corner. But it looks kind
+      of dented. Does she really work so hard to pay for a wedding and honeymoon
+      in the islands?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5105292174856192
+    m_Localized: I even feel sorry for him. If he continues in this vein, I can throw
+      it closer to the fall, and not in the spring.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5105294699827200
+    m_Localized: Hi, I'm really happy to see you. What a cloudy day it is, don't
+      you think?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5105403017728000
+    m_Localized: He stands up to kiss me, not on the lips as I expected, but on the
+      cheek.  I don't think much of it, though my chest feels tight with apprehension.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5105405744025600
+    m_Localized: I'm glad to see you, too. I took the liberty of ordering us lunch.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5105406947790848
+    m_Localized: I try to smile and make him look happy, but it doesn't work. His
+      eyes are darting around, and his palms are sweaty. His gestures are jerky,
+      and his foot is tapping under the table. I don't like it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5105407899897856
+    m_Localized: Honey, is something wrong?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5105623667478528
+    m_Localized: N-no... What makes you think that?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5105625613635584
+    m_Localized: I hear a change in his voice. He's talking too fast. Avoids eye
+      contact, looks for the waiter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5105626502828032
+    m_Localized: You're absolutely no good at lying, Ted.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5105627404603392
+    m_Localized: Do you want to talk about the Sunday service? I heard you were tired
+      so you couldn't come.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5105963389325312
+    m_Localized: I don't show it, just keep looking friendly and watching. Let him
+      feel that everything is fine.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5105964194631680
+    m_Localized: Yes... you see, a friend had this situation yesterday... I should
+      have gone to help, but I was late.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5105965155127296
+    m_Localized: Your mom said you were working late.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5105966044319744
+    m_Localized: 'Exactly, yes, it was for work. I had to leave. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5106196001230848
+    m_Localized: Does the funeral home now operate on an out-of-town basis? Late
+      at night. Did you bury the corpse yourself under the moon?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5106196840091648
+    m_Localized: I dig my nails into my knees under the table. I shouldn't have asked
+      too many questions. Quarrels are not necessary if everything is shaky. What
+      difference does it make to me where he was yesterday?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5106197741867008
+    m_Localized: No, no, just ... paperwork.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5106364729692160
+    m_Localized: I pull myself together as the waiter sets the dishes in front of
+      us. I think he ordered a duck for us.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5106365472083968
+    m_Localized: I've said many times that I hate duck in any form, and this idiot
+      still keeps ordering it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5106366419996672
+    m_Localized: How did you know that was what I wanted? You are so caring, you
+      anticipate my wishes!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5106588432896000
+    m_Localized: "\u201CWhen we get married, I'll cook exclusively duck. For breakfast,
+      lunch and dinner!\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5106589284339712
+    m_Localized: Really? I thought you didn't like it...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5106590081257472
+    m_Localized: I stare at him without blinking and try to figure out what the point
+      of this action is, if my memory is still intact. I need to change the subject
+      before I reach for my knife.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5107246112346112
+    m_Localized: You wanted to talk about something important. I'm ready at all ears.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5107308305485824
+    m_Localized: It's about the wedding.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5107313577725952
+    m_Localized: "\u201CWell, thank God, straight to the point!\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5107316941557760
+    m_Localized: Do you want to get married early so you can start your wedding night?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5107321584652288
+    m_Localized: I smile coquettishly and reach for him, but he doesn't smile back.
+      Just some kind of embarrassment, not related to anticipation.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5107327037247488
+    m_Localized: I slowly remove my hand and put a small piece of meat in my mouth
+      to keep myself occupied and not nervous.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5107565957386240
+    m_Localized: No... I feel like we don't fit together... You're so... correct,
+      good, sweet, kind to everyone, decent...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5107566745915392
+    m_Localized: "\u201CWhich is obviously not enough for someone as important as
+      you?!\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5107567572193280
+    m_Localized: Is that a bad thing? You told me on the first date about how you
+      see your significant other.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5107568524300288
+    m_Localized: This is how my mother saw her. But I realized that this is not exactly
+      my preference. I met a girl recently... You have to understand, she's...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5107794110746624
+    m_Localized: "\u201CNo, damn it, this can't be happening to me right now...\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5107796551831552
+    m_Localized: I inhaled so badly and simultaneously swallowed my half-chewed food
+      that a piece of damned duck stuck in my throat, making me cough loudly.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5107797252280320
+    m_Localized: Can I help you?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5107797914980352
+    m_Localized: "\u201CHelp yourself!\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5107798833532928
+    m_Localized: Clearing my throat, I wipe my lips with a napkin and cling to the
+      last thread of happiness.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5108059027181568
+    m_Localized: We can discuss this, don't jump to conclusions. If you don't have
+      enough spark in our relationship, I'm ready to change.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5108059815710720
+    m_Localized: We can still set a wedding date and have fun before that, opening
+      up to each other from new angles. How do you see it?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5108060545519616
+    m_Localized: I'm afraid I love her... We can't do this, Lana. Sorry.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5108061187248128
+    m_Localized: Emotions reach a peak, and a glass bridge to the future breaks before
+      my eyes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5108061870919680
+    m_Localized: I realize I've spent almost all my money and a year and a half of
+      my life to choke on a piece of stupid dead bird and hear from a forty-year-old
+      virgin that we're not a couple.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5108315999604736
+    m_Localized: "\u201CI want to...\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5108316700053504
+    m_Localized: Spill the water in his face
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5108317442445312
+    m_Localized: Obscenely send Ted to faraway places
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5108318398746624
+    m_Localized: 'Save face and continue playing '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5108439911927808
+    m_Localized: 'Be seductive to keep the relationship '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5108684314021888
+    m_Localized: I can't help but spilled the water in his face.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5108685068996608
+    m_Localized: "I'll personally make sure that your precious mother, whom I detest,
+      finds out about an important \u201Cjob\u201D last night. You're not worthy
+      of me, Ted. Get out."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5108686012715008
+    m_Localized: I notice a familiar woman at the next table shaking her head disapprovingly
+      at Ted's wet face. I think we go to the same church. I need to be more careful.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5108883040145408
+    m_Localized: "Such expressions have never been used in a high-end restaurant
+      before, but I try my best to enlighten them on this issue. The cultural program
+      is set to perfection \u2013 there are a lot of viewers."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5108883677679616
+    m_Localized: I explain to Ted to stay away from me and go where ever he want
+      to go with his brat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5108884420071424
+    m_Localized: The waiter moves timidly in our direction, begging us to stop the
+      scene.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5108885619642368
+    m_Localized: But verbal abuse doesn't seem like enough punishment, so I pour
+      the soup I snatched from the next table over his stupid head.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5108886546583552
+    m_Localized: "If I see you outside my house ever again \u2013 I'll call the police! "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5108888379494400
+    m_Localized: I notice a familiar woman in the audience shaking her head disapprovingly
+      at Ted's wet face. I think we go to the same church. I need to be more careful.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5109279112466432
+    m_Localized: "\u201CPlay until the end, Lana, consequences don\u2019t matter.\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5109279770972160
+    m_Localized: My eyes fill with fake tears and my face probably reflects real
+      grief. Even if I'm crying from a failed plan, not a broken heart, it still
+      looks natural.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5109280597250048
+    m_Localized: A woman in her sixties at the next table turns her attention to
+      me and looks reproachfully at Ted, who has brought such a nice girl to tears.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5109281511608320
+    m_Localized: I start sobbing and clutching at my heart, trying to elicit a response.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5109518703693824
+    m_Localized: We've been together for so long, I gave you the best I had... I
+      made you pies, spent evenings with your mother, took care of you when you were
+      sick...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5109519437697024
+    m_Localized: The woman gasps, guessing the reason for my tears, and pulls out
+      a napkin for me.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5109520167505920
+    m_Localized: You love this girl you're having unrestrained sex with, I understand...
+      I believe in God, I waited until the wedding...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5109521073475584
+    m_Localized: The audience is getting bigger, and I'm getting a taste for it,
+      not paying any attention to embarrassed Ted.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5109755002392576
+    m_Localized: "I could do anything for you, I dreamed of children and\u2026 about
+      living in the same house with your wonderful mother, so that she doesn\u2019t
+      feel lonely!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5109755644121088
+    m_Localized: But I understand, this girl... You've known each other for a few
+      weeks, you're in love! Who am I to ruin your happiness? All for you...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5109756386512896
+    m_Localized: I don't know why, but I put my hand to my stomach and raise my teary
+      eyes to the ceiling, adding to my anguish for the unborn child.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5109757347008512
+    m_Localized: "\u201CWell, okay, I feel a bit better now. It's time to stop.\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5110062801391616
+    m_Localized: I swallow back the lump in my throat and put all the charm I can
+      muster into my gaze, leaning up to reach Ted's hand.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5110063711555584
+    m_Localized: In a soft voice, as if singing a lullaby, I swear eternal love to
+      him and hint at more.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5110182183866368
+    m_Localized: We were so good together that I never admitted to my secret fantasies.
+      Perhaps now is the time to share...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5110186298478592
+    m_Localized: What the hell are you talking about?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5110409158627328
+    m_Localized: "A few months ago, I bought red silk underwear, very small and so
+      ohh\u2026 pleasant to the touch..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5110414040797184
+    m_Localized: Lana...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5110417975054336
+    m_Localized: I see the way he looks at me and I know I'm on the right track.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5110552352165888
+    m_Localized: I wanted to wait until after the wedding, but sometimes I get so
+      cold and lonely at night that my thoughts are filled with different pictures,
+      and the touch of silk between my legs excites me.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5110557628600320
+    m_Localized: I'm still wearing this underwear...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5110560912740352
+    m_Localized: He hesitates, not taking his hand away, which I stroke with extreme
+      sensuality.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5110561810321408
+    m_Localized: "\u201CGotcha, Ted, give up.\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5110562733068288
+    m_Localized: 'His phone vibrated on his desk, and a short female name appeared
+      on the screen: Lily.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5110874650873856
+    m_Localized: "\u201C Lily\u2026\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5110875389071360
+    m_Localized: I have to go. I'm sorry about that. I wish you happiness.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5110876299235328
+    m_Localized: It's all over. Ted leaves, and I sit there, completely drained,
+      not knowing what to do next.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5111073007898624
+    m_Localized: "I\u2019m sorry for interrupting, would you like to order some wine?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5111073762873344
+    m_Localized: "\u201CDamn... this dumbo didn't pay the bill, of course!\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5111074408796160
+    m_Localized: Invoice, please.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5111074958249984
+    m_Localized: "I really don\u2019t want to go home to the suburb I hate, I wander
+      the streets of Nashville and think of an emergency plan."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5111075524481024
+    m_Localized: "The last three hundred dollars went to pay the bill \u2013 not
+      even enough to buy a bus ticket. Nothing, not for the first time."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5111076082323456
+    m_Localized: I knew there might be problems, and I always have a briefcase with
+      a small amount of money in it, but I feel disgusting.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6100334410633216
+    m_Localized: Unknown Lily ruined all my plans in a blink of an eye.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6100338021928960
+    m_Localized: "\u201CI should have slept with him! I knew it...\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6100340723060736
+    m_Localized: I go through all the possible scenarios in my mind and chuckle at
+      the absurdity of my own ideas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6100343713599488
+    m_Localized: "\u201CPyramid schemes, escorts, new lover... No, it's either too
+      long or messy. I need a quick and effective result.\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6100773218717696
+    m_Localized: I immediately dismiss the loan option, because another unsuccessful
+      attempt will drive me into a debt hole. It is more pleasant to act cautiously,
+      without crossing the boundaries of reason.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6100776519634944
+    m_Localized: "\u201CI'll have to say goodbye to the house and the deposit, but
+      I have enough money to rent a cheap apartment closer to work. I will miss Father
+      Victor at the Sunday services.\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6100777509490688
+    m_Localized: I find myself thinking about him too often. My secret vicious passion.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6100778495152128
+    m_Localized: "However, this doesn\u2019t surprise me: I've never taken easy paths.
+      Attracts inaccessible, exciting imagination, strangely\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6100779476619264
+    m_Localized: "I feel excited and smile contentedly, enjoying the reaction of
+      my body. When I die, my tombstone will say: \u201CShe could have orgasms even
+      on the darkest day.\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6101163792306176
+    m_Localized: And the day is really overcast. It's time to take a walk along the
+      marina and calculate the possible costs of moving.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6101166518603776
+    m_Localized: "\u201CI'll make an appointment with a realtor tomorrow afternoon,
+      and I'll go to confession in the evening.\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6101169001631744
+    m_Localized: You need to cheer yourself up in all available ways, because stress
+      causes diseases. I don't plan on dying before I'm eighty.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6101411394654208
+    m_Localized: "I see a disabled person begging near a popular walking spot. On
+      the cardboard in his hands it says: \u201CHelp the blind man who has lost his
+      legs and hope.\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6101413391142912
+    m_Localized: "\u201CAnd here's my four bucks for the bus...\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6101416088080384
+    m_Localized: The wind gets stronger and the sky gets really dark, scaring away
+      couples who decided to get romantic with the sea view. That's right, run away,
+      I prefer less prying eyes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6101418654994432
+    m_Localized: The beggar hears my footsteps and starts to reach out to ask for
+      help, but I understand perfectly well what the point of his work is. We are
+      not much different from him, except for the appearance and, obviously, the
+      smell.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6101732195995648
+    m_Localized: "\u201CHow do I distract him?\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6101734217650176
+    m_Localized: 'To speak up '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6101736818118656
+    m_Localized: 'To give a coin '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6101739087237120
+    m_Localized: Don't take his money
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6101741679316992
+    m_Localized: Tough day?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6102104046211072
+    m_Localized: I squat down next to him, pretending that I need to talk.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6102106600542208
+    m_Localized: Like all my days, pretty dark.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6102107431014400
+    m_Localized: At the Sunday service, they advise you to pray.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6102107833667584
+    m_Localized: The man begins to laugh softly and raises his head to the sky, as
+      if he felt the irony. I don't waste any time reaching for the change that was
+      thrown at him so I can collect exactly four bucks.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6102108613808128
+    m_Localized: "Fuck you\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6102109746270208
+    m_Localized: "I look up and see how the \u201Cblind\u201D man has regained his
+      sight and shows me an indecent gesture."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6102506401599488
+    m_Localized: I'm a saint and I work miracles. Look, everyone, the blind man has
+      regained his sight!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6102507341123584
+    m_Localized: You'll pay for what you did. Take the last thing away from a disabled
+      person...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6102507819274240
+    m_Localized: Oh, come on, I know who you work for. Stop wailing and go back to
+      your suite.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6102508767186944
+    m_Localized: I snort and walk away before I hear any more nasty things coming
+      after me.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6102509903843328
+    m_Localized: 'This business is older than prostitution: all the beggars of this
+      city work for someone, and at night they have fun in luxury apartments, giving
+      a percentage to big uncle.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6102510381993984
+    m_Localized: 'The first drops of rain fall on my hair as I step onto the dock.
+      My hair is finished. I can''t get to the bus stop in time: it''s too far. I
+      curse at the unpleasant sensation on my skin and quicken my pace.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6102952776208384
+    m_Localized: Instant karma!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6102963358437376
+    m_Localized: "I hear laughter behind me, but I'm not interested anymore. It's
+      much more important now not to get wet - I don't want to get sick. My body
+      doesn\u2019t tolerate hypothermia, I never sleep even with the window open."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6102967468855296
+    m_Localized: You managed to get money for the trip home
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6102972065812480
+    m_Localized: I walk closer and pretend that I'm going to give it to him.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6102977266749440
+    m_Localized: "\u201CHe needs it, of course...\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6102981968564224
+    m_Localized: I reach up to give a coin, and with my other hand I pick up exactly
+      four bucks.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6102982526406656
+    m_Localized: "\u201CIt's not going to hurt, and I need to get home.\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6102983872778240
+    m_Localized: "It's not good to steal from a disabled person. You'll burn in hell\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6102984501923840
+    m_Localized: "I look up and see how the \u201Cblind\u201D man has regained his
+      sight and shows me an indecent gesture."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6103587609284608
+    m_Localized: I'm a saint and I work miracles. Look, everyone, the blind man has
+      regained his sight!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6103588209070080
+    m_Localized: Damn you...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6103589396058112
+    m_Localized: Oh, come on, I know who you work for. Stop wailing and go back to
+      your suite.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6103589983260672
+    m_Localized: I snort and walk away before I hear any more nasty things coming
+      after me.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6103590578851840
+    m_Localized: 'This business is older than prostitution: all the beggars of this
+      city work for someone, and at night they have fun in luxury apartments, giving
+      a percentage to big uncle.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6103591178637312
+    m_Localized: 'The first drops of rain fall on my hair as I step onto the dock.
+      My hair is finished. I can''t get to the bus stop in time: it''s too far. I
+      curse at the unpleasant sensation on my skin and quicken my pace.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6103592374013952
+    m_Localized: Instant karma!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6104020453068800
+    m_Localized: "I hear laughter behind me, but I'm not interested anymore. It's
+      much more important now not to get wet - I don't want to get sick. My body
+      doesn\u2019t tolerate hypothermia, I never sleep even with the window open."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6104021128351744
+    m_Localized: You managed to get money for the trip home
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6104021761691648
+    m_Localized: I shift my weight from one foot to the other, still hesitating to
+      take the money.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6104022432780288
+    m_Localized: "\u201CCan I skip for free? If they have any questions, I can cry
+      and ask one of the passengers to pay...\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6104023665905664
+    m_Localized: I sigh heavily and walk away, not daring to stoop so low.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6104977001844736
+    m_Localized: You didn't manage to get money for the trip home, but you kept your
+      dignity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6105084690599936
+    m_Localized: A cold downpour begins, and the evening turns too abruptly into
+      night, causing me to have a new attack of anxiety.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6105085462351872
+    m_Localized: 'I see a bus stop on the horizon and start running, because my bus
+      is about to arrive. But I''m stopped by some commotion in the alley next to
+      me: a girl''s squeak and pleas for help.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6105086133440512
+    m_Localized: "\u201CWhat's going on out there...?\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6105086762586112
+    m_Localized: I peer through the haze of water and spot Sarah, my student, waving
+      away a suspicious man in a black raincoat and hood.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6105087534338048
+    m_Localized: He's reaching for her!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6105088461279232
+    m_Localized: Trying to grab her!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6105403302514688
+    m_Localized: "\u201COh, no... I hate such brats!\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6105403965214720
+    m_Localized: I run as fast as I can toward the alley, tripping over my uncomfortable
+      shoes. It's a great reason to punch someone for all the good things.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6105404602748928
+    m_Localized: I'd been through enough in the orphanage to begin to loathe violence.
+      Especially over innocent and helpless children!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6105405261254656
+    m_Localized: Hey, you! Let the girl go!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6105406116892672
+    m_Localized: At first, the suspicious guy doesn't pay any attention to me, so
+      I throw the shoe I took off at him without thinking of anything better to do.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6105698690568192
+    m_Localized: I said get the hell away from her! I've already called the cops,
+      they're on their way!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6105699508457472
+    m_Localized: "Only now I\u2019ve noticed that something dark is flying around
+      him, like a sinister magic, like in my favorite movies, where the most beautiful
+      heroine dies first."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6105700334735360
+    m_Localized: What the hell is this...?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6105701165207552
+    m_Localized: 'The man turns his head in my direction in complete disbelief and
+      I swear he''s frowning, even though I can''t see it. He''s still standing there,
+      and I''m not going to give in to fear while he''s got the girl. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6105702830346240
+    m_Localized: Sarah, come to me!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6106016606228480
+    m_Localized: "She takes a step, and the whole world seems to freeze at the snap
+      of the villain's long fingers. The raindrops slow down \u2013 I can no longer
+      feel them moving."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6106018351058944
+    m_Localized: 'I move forward, looking around, and don''t understand what''s going
+      on: the cars aren''t moving, all the sounds seem to have been erased.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6106019290583040
+    m_Localized: The stranger adjusts his hood as if nothing has happened, and tilts
+      his head to one side with interest, studying my face.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6106175096393728
+    m_Localized: His eyes seem familiar to me, beckoning with an inexplicable force,
+      not allowing me to think, drawing me to myself. He's doing something to me
+      that makes me feel unnaturally calm.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6106175775870976
+    m_Localized: "\u201CHave we met before...?\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6106176535040000
+    m_Localized: Sarah, like me, is under his hypnotic influence and slowly comes
+      closer. Surprisingly, I don't feel any fear.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6106177482952704
+    m_Localized: His face is so close that I can touch it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6106406408065024
+    m_Localized: 'To touch '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6106407142068224
+    m_Localized: 'To abstain '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6106408190644224
+    m_Localized: He paused, allowing his trembling fingertips to trace his cheek,
+      his chin, his lips...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6106409226637312
+    m_Localized: The handsome face is decorated with a few wrinkles, and the warmth
+      of his skin intoxicates the mind.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6106655205789696
+    m_Localized: I stare into the depths of those wary yet sad eyes, trying to discern
+      the truth.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6106666048065536
+    m_Localized: "\u201CI remember you... But when did we meet?\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6106872604954624
+    m_Localized: My body is calm, but inside I'm like a bird trying to escape its
+      cage. I want to jump away, but I can't.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6106878623780864
+    m_Localized: 'Finally, I hear a soft whisper:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6106882318962688
+    m_Localized: Who are you?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6107055891845120
+    m_Localized: Lana.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6107062086832128
+    m_Localized: I exercise caution and return to understanding the situation, trying
+      to regain control of my body.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6107179317628928
+    m_Localized: "\u201CWhy is it so hard to look away...?\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6107180315873280
+    m_Localized: The man looks puzzled, but his rough face quickly shows determination,
+      and my heart finally skips a beat of fear.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6107182991839232
+    m_Localized: Another snap of his long fingers, and the rain hits the three of
+      us overnight, settling into the normal flow of time.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6107333093396480
+    m_Localized: I flinch and grab Sarah's arm, but a flash of light blinds us and
+      takes us to what I might describe as nothingness.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6107334108418048
+    m_Localized: 'I don''t feel anything, I don''t think about anything, and I don''t
+      seem to exist... Space is in front of me: empty and dark, where everything
+      is and there is... nothing.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11263837006106624
+    m_Localized: <i>Suburban Nashville, Tennessee, 12 hours before sinking into oblivion<i>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15596740695461888
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15597339520438272
+    m_Localized: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15603116624744448
+    m_Localized: Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15603896446521344
+    m_Localized: '<b>Warning!</b>
+
+
+      The story contains scenes intended exclusively
+      for readers over the age of 18. It contains explicit sex scenes, as well as
+      violence and obscene language. By clicking continue, you confirm your age.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44626055206440960
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44960234028830720
+    m_Localized: +1 Trick
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44960395027189760
+    m_Localized: +1 Charm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44960512136351744
+    m_Localized: +1 Light
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44960601294671872
+    m_Localized: +1 Darkness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58592678225285120
+    m_Localized: "\rNow choose a hairstyle."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

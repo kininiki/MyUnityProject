@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UI Text_MainMenu_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 71675d7be13eea741b6c32e79904d77c, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 88819535872
+    m_Localized: Notifications
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2369476530176
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4490657697792
+    m_Localized: Mythology, psychology
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4737643483136
+    m_Localized: Special edition, romance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4790466547712
+    m_Localized: Magic, uncesored 18+, humor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4316422115328
+    m_Localized: Post-apocalyptic, drama, action
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8816641871872
+    m_Localized: LOGIN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1476276163350528
+    m_Localized: UID copied to clipboard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1478384547696640
+    m_Localized: Yookassa (for the Russian Federation)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21343342026461184
+    m_Localized: Loading...
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

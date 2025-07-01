@@ -1,0 +1,290 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UI Text_MainMenu_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 71675d7be13eea741b6c32e79904d77c, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 88819535872
+    m_Localized: Notifications
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2369476530176
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4490657697792
+    m_Localized: Mythology, psychology
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4737643483136
+    m_Localized: Special edition, romance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4790466547712
+    m_Localized: Fantasy, uncesored 18+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4316422115328
+    m_Localized: Post-apocalyptic, drama, action
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8816641871872
+    m_Localized: LOGIN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1476276163350528
+    m_Localized: UID copied to clipboard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1478384547696640
+    m_Localized: Yookassa (for the Russian Federation)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21343342026461184
+    m_Localized: Loading
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23590145174179840
+    m_Localized: Start Story
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24288714394865664
+    m_Localized: Feed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32293431846801408
+    m_Localized: Rubies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32293558883880960
+    m_Localized: Elixirs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32293625007083520
+    m_Localized: Catmoney
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33248894977478656
+    m_Localized: Special offer!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33249897541963776
+    m_Localized: 900 rubies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33624321168412672
+    m_Localized: 70 rubies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33624545446236160
+    m_Localized: 150 rubies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33624775340232704
+    m_Localized: 300 rubies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33638993422618624
+    m_Localized: 5 elixirs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33639338186018816
+    m_Localized: 5 elixirs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36483462706663424
+    m_Localized: Coming soon!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36492554305179648
+    m_Localized: "\rExchange"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36551706431885312
+    m_Localized: Okey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39527419640451072
+    m_Localized: Watch ads and save currency!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39529089724223488
+    m_Localized: Watch ads
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39531365205446656
+    m_Localized: 10 rubies daily!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39548932997419008
+    m_Localized: 2 elixirs daily!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39552717597609984
+    m_Localized: 1 catmoney daily!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39793827347599360
+    m_Localized: Look for promotional codes and win prizes!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39794974229696512
+    m_Localized: Enter promo code
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39796650357460992
+    m_Localized: Confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39885727052238848
+    m_Localized: Click on your UID to copy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39888023349792768
+    m_Localized: "\rSound in game"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44553677923323904
+    m_Localized: "1. Feed your pet every day to get rewards. \r\n2. The pet will
+      be bored and very hungry if you forget about it. \r\n3. A normal level of satiety
+      ensures growth for your pet! As it grows, it will bring more rewards! \r\n4.
+      A happy or very happy pet is in the same state of satiety for only two days,
+      do not forget to feed it again! Free food increases satiety only up to a certain
+      level."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44554558471311360
+    m_Localized: Meow! Give me a name and don't forget to feed me every day to get
+      rewards. More food - more rewards! My happiness will bring x4 increase in daily
+      rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44557979811221504
+    m_Localized: "\rNew features in development!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44560052460097536
+    m_Localized: "\rQuit the game"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44594254211616768
+    m_Localized: 'Go to the advertising section and claim your daily reward! You
+      have access to 5 rubies, 2 elixirs and 3 catmoney. If advertising is not available,
+      bonuses are credited automatically.
+
+
+      Also don''t forget to feed your
+      pet! Suddenly he wants to reward you with something special. You can exchange
+      catmoney for food in the store in the section for purchasing elixirs.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44596610575798272
+    m_Localized: 'A chance encounter turns the life of a cunning con artist upside
+      down. Tennessee fades into a realm of dark dimension, and a familiar suburban
+      home is replaced by an academy of magic.
+
+
+      Mystical beings, hidden secrets,
+      and constant danger... But is there room in this world for true love?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44598393427628032
+    m_Localized: In development!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44598757321248768
+    m_Localized: Collections are preparing for release
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44607191315812352
+    m_Localized: 'Welcome to the limitless worlds of Very Bad Stories!
+
+
+
+      In
+      honor of registration, we are giving you 75 rubies, 3 elixirs and 3 kotomani.
+
+
+
+      Don''t
+      forget to get acquainted with your new pet and feed him!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44865197639110656
+    m_Localized: User agreement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44865329730326528
+    m_Localized: Privacy Policy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44888655836123136
+    m_Localized: 'Your pet has reached the highest level of happiness and gives you
+      15 rubies, 6 elixirs and 7 catmoney!
+
+
+
+      To remain as happy, a cat needs
+      more food than usual. Log in every day and claim a new daily reward! But don''t
+      forget to feed the animal.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44890002459365376
+    m_Localized: 'Your pet is happy today and gives you 15 rubies, 6 elixirs and
+      7 catmoney!
+
+
+
+      Continue to maintain your cat''s happiness level and receive
+      a daily bonus reward.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45164570679873536
+    m_Localized: 3 catmoney
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47750604483629056
+    m_Localized: Choose
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47845785799135232
+    m_Localized: Buy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49931492613066752
+    m_Localized: Antony
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49933782325563392
+    m_Localized: 10 catmoney
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49933900340695040
+    m_Localized: 25 catmoney
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93491678845767680
+    m_Localized: Support
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96951752515817472
+    m_Localized: lvl. 1
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

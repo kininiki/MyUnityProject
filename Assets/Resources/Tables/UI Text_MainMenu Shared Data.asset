@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: UI Text_MainMenu Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: UI Text_MainMenu
+  m_TableCollectionNameGuidString: 71675d7be13eea741b6c32e79904d77c
+  m_Entries:
+  - m_Id: 88819535872
+    m_Key: Notification
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2369476530176
+    m_Key: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4316422115328
+    m_Key: Story0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4490657697792
+    m_Key: Story1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4737643483136
+    m_Key: Story2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4790466547712
+    m_Key: Story3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8816641871872
+    m_Key: Enter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1476276163350528
+    m_Key: UID_copied
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1478384547696640
+    m_Key: Yoo_Kassa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21343342026461184
+    m_Key: "\u0417\u0430\u0433\u0440\u0443\u0437\u043A\u0430"
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8061262043475345456
+  references:
+    version: 2
+    RefIds:
+    - rid: 8061262043475345456
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1728158952651
