@@ -1,0 +1,13 @@
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Tt]extMesh Pro/
+[Uu]serSettings/
+/Assets/Plugins/Android/libs/
+/Debug*/
+/PackageCache/
+/ArtifactsDB
