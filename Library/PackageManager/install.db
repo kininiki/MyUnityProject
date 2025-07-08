@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "packages": {
+    "com.google.external-dependency-manager": {
+      "tarball": {
+        "hash": "1f9ea14d1e23",
+        "mtime": 1749930833696,
+        "size": 379958,
+        "localPath": "C:\\Users\\user\\MyUnityProject-main\\Assets\\com.google.external-dependency-manager-1.2.177.tgz"
+      }
+    }
+  }
+}
