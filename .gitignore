@@ -4,10 +4,11 @@
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
-[Mm]emoryCaptures/
-[Tt]extMesh Pro/
-[Uu]serSettings/
-/Assets/Plugins/Android/libs/
-/Debug*/
-/PackageCache/
-/ArtifactsDB
+UserSettings/
+MemoryCaptures/
+Assets/Plugins/Android/libs/
+Packages/PackageCache/
+*.so
+*.dll
+*.dylib
+
