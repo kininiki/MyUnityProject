@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: DialogueStrings_Lana3_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: e348cc529121d4744862932fc5e4107d, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 140061347840
+    m_Localized: I hear a muffled curse. Suddenly someone clamps down on my leg and
+      drags me out from under the warm blanket into the cold, harsh reality.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 426356150272
+    m_Localized: 'Ow! You fiend! '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 485395173376
+    m_Localized: 'You''ll get over it. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 533940047872
+    m_Localized: 'You promised there would be no torture here.... '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 580492627968
+    m_Localized: 'You know that''s unprofessional, right? '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 623115145216
+    m_Localized: You skipped breakfast, and I even brought you bacon and toast. Get
+      up, or you'll miss your first lecture.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 745941143552
+    m_Localized: We skipped breakfast, so why did you only bring it for me?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 877227053056
+    m_Localized: I don't know why I act this way. Maybe it's just my born boldness.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 879949156352
+    m_Localized: Thea coughed. Apparently, she was embarrassed by my question and
+      the tone I used when speaking to an esteemed professor about fifteen years
+      older than me.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 882675453952
+    m_Localized: 'The dean has instructed me to keep an eye on you: you are special.
+      If you don''t show up on time for your lecture, you''ll have to report back
+      to me. '
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

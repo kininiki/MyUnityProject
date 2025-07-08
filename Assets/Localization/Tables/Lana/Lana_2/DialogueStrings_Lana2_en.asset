@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: DialogueStrings_Lana2_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 117fde858754f4941be525c0c9e89fee, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 14416777216
+    m_Localized: 'My idea of the afterlife has always been bleak and painfully vivid:
+      bone-chilling cold, pitch-black darkness, and a whisper coming from everywhere
+      and nowhere at the same time. A voice calling me to submit to the inevitable.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87104065536
+    m_Localized: '"Come... come..."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133514039296
+    m_Localized: "I\u2019m shivering violently. Somewhere deep inside, echoes of
+      pain reverberate. I feel a burning sensation in my eyes while a whisper persistently
+      knocks at my consciousness."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348996407296
+    m_Localized: '"Come to your senses..."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 402549280768
+    m_Localized: I shake my head and try to rid myself of the insistent summons of
+      the soul-guardian.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 455829524480
+    m_Localized: '"No, no, I don''t want to..."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 535819096064
+    m_Localized: 'Imagination paints a picture of a boatman who is about to ferry
+      my sinful soul to the realm of Hades. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 601048911872
+    m_Localized: "Something wet and cold touches my face, making me gasp and force
+      my eyes open. It\u2019s hard to focus on anything because tears still coat
+      my cheeks, but I force myself and..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 634708201472
+    m_Localized: You're finally awake.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 810772500480
+    m_Localized: A sudden awakening and an unfamiliar face very close by makes me
+      jerk and almost fall off the couch as I try to move further away.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

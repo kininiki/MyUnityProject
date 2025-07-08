@@ -174,3 +174,65 @@ public class PriceCommand : Command
         return $"Отображает количество рубинов на кнопке '{buttonKey}' (обновление каждые {updateInterval} сек) и открывает сцену '{shopSceneName}' при нажатии.";
     }
 }
+
+
+
+[CommandInfo("Custom", "Price Fade Out", "Fades out the price button")]
+public class PriceFadeOutCommand : Command
+{
+    [Tooltip("Key of the button in ButtonManager")]
+    public string buttonKey;
+
+    [Tooltip("Fade duration in seconds")]
+    public float fadeDuration = 1f;
+
+    private ButtonManager buttonManager;
+
+    public override void OnEnter()
+    {
+        buttonManager = FindObjectOfType<ButtonManager>();
+        if (buttonManager == null)
+        {
+            Debug.LogError("ButtonManager not found in the scene.");
+            Continue();
+            return;
+        }
+
+        ButtonStyle buttonStyle = buttonManager.buttonStyles.Find(b => b.buttonKey == buttonKey);
+        if (buttonStyle == null || buttonStyle.button == null)
+        {
+            Debug.LogError($"Button with key '{buttonKey}' not found.");
+            Continue();
+            return;
+        }
+
+        GameObject target = buttonStyle.button.gameObject;
+        CanvasGroup canvasGroup = target.GetComponent<CanvasGroup>();
+        if (canvasGroup == null)
+        {
+            canvasGroup = target.AddComponent<CanvasGroup>();
+        }
+
+        float startAlpha = canvasGroup.alpha;
+        LeanTween.value(target, startAlpha, 0f, fadeDuration)
+            .setOnUpdate((float value) =>
+            {
+                canvasGroup.alpha = value;
+            })
+            .setOnComplete(() =>
+            {
+                target.SetActive(false);
+                Continue();
+            });
+    }
+
+    public override string GetSummary()
+    {
+        return $"Fade out price button '{buttonKey}' over {fadeDuration}s";
+    }
+
+    public override Color GetButtonColor()
+    {
+        return new Color32(221, 184, 169, 255);
+    }
+}

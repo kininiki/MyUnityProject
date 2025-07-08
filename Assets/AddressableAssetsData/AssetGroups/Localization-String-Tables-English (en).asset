@@ -17,8 +17,22 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 55ee894f238306a488edfb302cbacc40
   m_SerializeEntries:
+  - m_GUID: 1ee8b37048ae8fa45aca8dc4a0e7e9aa
+    m_Address: DialogueStrings_Lana2_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9db5e2b6e01e3f341b55171f53bdc384
     m_Address: VideoPaths_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cb3764add37d21045aafdf61579d5ed8
+    m_Address: DialogueStrings_Lana3_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
@@ -37,7 +51,7 @@ MonoBehaviour:
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: fb57cd10ee0a44944a2e6ce6048f0362
-    m_Address: DialogueStrings_Lana_en
+    m_Address: DialogueStrings_Lana1_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en

@@ -133,6 +133,7 @@
     <Compile Include="Assets\SCPlayerPro\Demo\Scripts\PreviewController.cs" />
     <Compile Include="Assets\Scripts\GoogleLogin\GameCloud.cs" />
     <Compile Include="Assets\Scripts\UiMenu\UnityAd\RewardedElixir.cs" />
+    <Compile Include="Assets\Scripts\Stories\Story_Lana\ThirdCharacterCastomization.cs" />
     <Compile Include="Assets\SCPlayerPro\Scripts\Renderer\SCRendererYUV422P.cs" />
     <Compile Include="Assets\SCPlayerPro\Scripts\UnitySCPlayerPro.cs" />
     <Compile Include="Assets\Scripts\UiMenu\Promo\Promocode.cs" />
@@ -220,6 +221,7 @@
     <Compile Include="Assets\Scripts\Stories\Story_Lana\ButtonManager.cs" />
     <Compile Include="Assets\SCPlayerPro\Scripts\RenderTarget\SCSplitTexture.cs" />
     <Compile Include="Assets\SCPlayerPro\Scripts\Renderer\SCRendererVIDEOTOOLBOX.cs" />
+    <Compile Include="Assets\Scripts\Stories\Story_Lana\ThirdCharacterManager.cs" />
     <Compile Include="Assets\Scripts\Wardrobe\BackButtonController.cs" />
     <Compile Include="Assets\SCPlayerPro\Scripts\Tools\OSXTools.cs" />
     <Compile Include="Assets\Scripts\Stories\Story_Lana\CanvasPositioner.cs" />

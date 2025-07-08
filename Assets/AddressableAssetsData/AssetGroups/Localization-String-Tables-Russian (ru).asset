@@ -30,10 +30,24 @@ MonoBehaviour:
     - Locale-ru
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 44c344195f9bcc54fa2af332054ac08d
-    m_Address: DialogueStrings_Lana_ru
+    m_Address: DialogueStrings_Lana1_ru
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a71cec8db4192a459b448e54ef067eb
+    m_Address: DialogueStrings_Lana3_ru
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 867c3b84e0b48484fbde807e4665f0a4
+    m_Address: DialogueStrings_Lana2_ru
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    - Preload
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: df432cd2f7a53834f904fdd6fff99b45
     m_Address: VideoPaths_ru

@@ -80,3 +80,50 @@ public class SetBackgroundCommand : Command
         return new Color32(221, 184, 169, 255);
     }
 }
+
+
+
+[CommandInfo("Background", "Fade Out Bg", "Fades out the current background image.")]
+public class FadeOutBackgroundCommand : Command
+{
+    [SerializeField] protected Image targetImage;
+    [SerializeField] protected float fadeDuration = 1f;
+
+    public override void OnEnter()
+    {
+        if (targetImage == null)
+        {
+            Debug.LogError("Target Image is not set in FadeOutBackgroundCommand");
+            Continue();
+            return;
+        }
+
+        float startAlpha = targetImage.color.a;
+        LeanTween.value(targetImage.gameObject, startAlpha, 0f, fadeDuration)
+            .setOnUpdate((float value) =>
+            {
+                Color c = targetImage.color;
+                c.a = value;
+                targetImage.color = c;
+            })
+            .setOnComplete(() =>
+            {
+                Continue();
+            });
+    }
+
+    public override string GetSummary()
+    {
+        if (targetImage == null)
+        {
+            return "Error: No target image set";
+        }
+
+        return $"Fade out {targetImage.name} ({fadeDuration}s)";
+    }
+
+    public override Color GetButtonColor()
+    {
+        return new Color32(221, 184, 169, 255);
+    }
+}
