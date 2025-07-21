@@ -285,6 +285,14 @@ MonoBehaviour:
     m_Localized: lvl. 1
     m_Metadata:
       m_Items: []
+  - m_Id: 101399871647289344
+    m_Localized: Return to menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101480000759173120
+    m_Localized: Coming soon
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

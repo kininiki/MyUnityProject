@@ -360,7 +360,6 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Fungus.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Fungus.UsfxrEditor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/FungusEditor.ref.dll"
--r:"Library/Bee/artifacts/1900b0aE.dag/FungusExamples.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/PsdPlugin.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Purchasing.Common.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Animation.Editor.ref.dll"
@@ -452,8 +451,8 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Editor/AutoBackup.cs"
-"Assets/SCPlayerPro/Editor/AddIOSDependencies.cs"
-"Assets/SCPlayerPro/Editor/SCPlayerInspectorEditor.cs"
+"Assets/Editor/FungusFlowchartSaver.cs"
+"Assets/Editor/ScenarioImporter.cs"
 "Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs"
 -langversion:9.0
 /deterministic

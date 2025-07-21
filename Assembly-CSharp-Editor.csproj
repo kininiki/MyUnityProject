@@ -65,9 +65,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
-    <Compile Include="Assets\SCPlayerPro\Editor\AddIOSDependencies.cs" />
     <Compile Include="Assets\Editor\AutoBackup.cs" />
-    <Compile Include="Assets\SCPlayerPro\Editor\SCPlayerInspectorEditor.cs" />
+    <Compile Include="Assets\Editor\FungusFlowchartSaver.cs" />
+    <Compile Include="Assets\Editor\ScenarioImporter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\LevelPlay\Editor\IronSourceSDKDependencies.xml" />
@@ -1377,7 +1377,6 @@
     <ProjectReference Include="Assembly-CSharp.csproj" />
     <ProjectReference Include="Fungus.FungusLuaEditor.csproj" />
     <ProjectReference Include="FungusEditor.csproj" />
-    <ProjectReference Include="FungusExamples.csproj" />
     <ProjectReference Include="Fungus.FungusLuaJSONCheckerEditor.csproj" />
     <ProjectReference Include="Fungus.UsfxrEditor.csproj" />
     <ProjectReference Include="Fungus.csproj" />

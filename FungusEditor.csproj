@@ -64,13 +64,16 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.38f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Fungus\Scripts\Editor\VariableTypes\AudioClipVariableDrawer.cs" />
     <Compile Include="Assets\Fungus\Scripts\Editor\VariableTypes\Collider2DVariableDrawer.cs" />
     <Compile Include="Assets\Fungus\Scripts\Editor\ViewEditor.cs" />
     <Compile Include="Assets\Fungus\Scripts\Editor\SaveMenuEditor.cs" />
     <Compile Include="Assets\Fungus\Scripts\Editor\InvokeMethodEditor.cs" />
     <Compile Include="Assets\Fungus\Scripts\Editor\BasePopupWindowContent.cs" />
     <Compile Include="Assets\Fungus\Scripts\Editor\VariableTypes\CollectionVariableDrawer.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\VariableTypes\CharacterVariableDrawer.cs" />
     <Compile Include="Assets\Fungus\Scripts\Editor\CommandEditor.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\ExportPackageMenuItems.cs" />
     <Compile Include="Assets\Fungus\Scripts\Editor\VariableTypes\AnimatorVariableDrawer.cs" />
     <Compile Include="Assets\Fungus\Scripts\Editor\StageEditor.cs" />
     <Compile Include="Assets\Fungus\Scripts\Editor\SolutionFileFixer.cs" />
@@ -84,6 +87,8 @@
     <Compile Include="Assets\Fungus\Scripts\Editor\VariableListAdaptor.cs" />
     <Compile Include="Assets\Fungus\Scripts\Editor\VariableReferenceDrawer.cs" />
     <Compile Include="Assets\Fungus\Scripts\Editor\SerializedPropertyExtensions.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\VariableTypes\AudioMixerVariableDrawer.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\VariableTypes\AudioMixerGroupVariableDrawer.cs" />
     <Compile Include="Assets\Fungus\Scripts\Editor\LabelEditor.cs" />
     <Compile Include="Assets\Fungus\Scripts\Editor\FlowchartMenuItems.cs" />
     <Compile Include="Assets\Fungus\Scripts\Editor\ExportReferenceDocs.cs" />
@@ -140,6 +145,7 @@
     <Compile Include="Assets\Fungus\Scripts\Editor\PortraitEditor.cs" />
     <Compile Include="Assets\Fungus\Scripts\Editor\BlockReferenceDrawer.cs" />
     <Compile Include="Assets\Fungus\Scripts\Editor\CustomGUI.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Editor\VariableTypes\AudioMixerSnapshotVariableDrawer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Fungus\Scripts\Editor\FungusEditor.asmdef" />

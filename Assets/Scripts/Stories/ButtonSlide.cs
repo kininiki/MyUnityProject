@@ -10,6 +10,9 @@ public class ButtonSlide : MonoBehaviour
     public float slideDuration = 0.5f; // Длительность анимации
     public float slideDistance = 200f; // Расстояние для перемещения кнопок вверх
 
+    private Vector2 shownPosition;    // Позиция, когда панель видима
+    private Vector2 hiddenPosition;   // Позиция, когда панель скрыта
+
     private bool isSliding = false; // Флаг для предотвращения повторных нажатий
 
     void Start()
@@ -18,8 +21,14 @@ public class ButtonSlide : MonoBehaviour
         buttonUp.onClick.AddListener(HideButtons);
         buttonDown.onClick.AddListener(ShowButtons);
 
-        // Изначально кнопка ButtonDown отключена
-        buttonDown.gameObject.SetActive(false);
+        shownPosition = buttonGroup.anchoredPosition;
+        hiddenPosition = shownPosition + Vector2.up * slideDistance;
+
+        // Панель и кнопка Hide изначально скрыты, отображается только кнопка Show
+        buttonGroup.anchoredPosition = hiddenPosition;
+        buttonGroup.gameObject.SetActive(false);
+        buttonUp.gameObject.SetActive(false);
+        buttonDown.gameObject.SetActive(true);
     }
 
     public void HideButtons()
@@ -30,7 +39,8 @@ public class ButtonSlide : MonoBehaviour
         // Начинаем анимацию сдвига кнопок вверх
         StartCoroutine(Slide(buttonGroup, Vector3.up * slideDistance, slideDuration, () =>
         {
-            // Скрываем кнопку ButtonUp и активируем кнопку ButtonDown
+            // Скрываем панель и показываем кнопку для ее вызова
+            buttonGroup.gameObject.SetActive(false);
             buttonUp.gameObject.SetActive(false);
             buttonDown.gameObject.SetActive(true);
             isSliding = false;
@@ -41,6 +51,9 @@ public class ButtonSlide : MonoBehaviour
     {
         if (isSliding) return; // Если уже идет анимация, пропускаем
         isSliding = true;
+
+        // Перед анимацией делаем панель видимой
+        buttonGroup.gameObject.SetActive(true);
 
         // Начинаем анимацию сдвига кнопок вниз
         StartCoroutine(Slide(buttonGroup, Vector3.down * slideDistance, slideDuration, () =>

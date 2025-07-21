@@ -363,10 +363,10 @@
 "Assets/Fungus/Thirdparty/FungusLua/Scripts/Editor/DropDownControl.cs"
 "Assets/Fungus/Thirdparty/FungusLua/Scripts/Editor/ExecuteHandlerEditor.cs"
 "Assets/Fungus/Thirdparty/FungusLua/Scripts/Editor/LuaBindingsEditor.cs"
+"Assets/Fungus/Thirdparty/FungusLua/Scripts/Editor/LuaMenuItems.cs"
 "Assets/Fungus/Thirdparty/FungusLua/Scripts/Editor/LuaScriptEditor.cs"
 "Assets/Fungus/Thirdparty/FungusLua/Scripts/Editor/LuaStoreEditor.cs"
 "Assets/Fungus/Thirdparty/FungusLua/Scripts/Editor/LuaUtilsEditor.cs"
-"Assets/Fungus/Thirdparty/FungusLua/Scripts/Editor/MenuItems.cs"
 -langversion:9.0
 /deterministic
 /optimize+

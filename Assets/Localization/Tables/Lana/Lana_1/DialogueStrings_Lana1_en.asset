@@ -273,9 +273,12 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4378516377210880
-    m_Localized: "Clue\n\nSometimes you will see elections for the \u201Ccurrency
-      icon\u201D. They will allow you to expand the plot, get more stat points or
-      develop a stronger relationship."
+    m_Localized: 'Clue
+
+
+      Sometimes you will see elections for the rubies. They
+      will allow you to expand the plot, get more stat points or develop a stronger
+      relationship.'
     m_Metadata:
       m_Items: []
   - m_Id: 4378572383752192
@@ -572,10 +575,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 5103910009081856
-    m_Localized: 'Notification
-
-
-      <i>Cadence is the end of a piece of music<i>'
+    m_Localized: <i>Cadence is the end of a piece of music<i>
     m_Metadata:
       m_Items: []
   - m_Id: 5104084546654208

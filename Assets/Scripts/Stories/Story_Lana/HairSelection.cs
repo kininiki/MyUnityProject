@@ -25,6 +25,7 @@ public class HairSelectionCommand : Command
     [SerializeField] private int[] hairPrices;
     [SerializeField] private int buyAllPrice = 1000;
     [SerializeField] private int buyAllIndex = -1;
+    [SerializeField] private bool buyAllEnabled = true;
 
     [Header("UI References")]
     [SerializeField] private GameObject wardrobePanel;
@@ -85,6 +86,11 @@ public class HairSelectionCommand : Command
         }
 
         SetCharacterAlpha(visibleAlpha);
+
+        if (!buyAllEnabled && buyAllIndex == currentIndex)
+        {
+            currentIndex = (currentIndex + 1) % hairTypeIndexes.Length;
+        }
         
         StartCoroutine(InitializeAndLoadData());
     }
@@ -125,7 +131,7 @@ public class HairSelectionCommand : Command
     {
         if (index < 0 || index >= hairTypeIndexes.Length) return;
 
-        isBuyAllPage = (index == buyAllIndex);
+        isBuyAllPage = buyAllEnabled && (index == buyAllIndex);
         selectButton.gameObject.SetActive(!isBuyAllPage);
 
         if (!isBuyAllPage)
@@ -406,15 +412,23 @@ public class HairSelectionCommand : Command
 
     private void OnLeftArrowClicked()
     {
-        currentIndex--;
-        if (currentIndex < 0) currentIndex = hairTypeIndexes.Length - 1;
+        do
+        {
+            currentIndex--;
+            if (currentIndex < 0) currentIndex = hairTypeIndexes.Length - 1;
+        }
+        while (!buyAllEnabled && currentIndex == buyAllIndex);
         SetHair(currentIndex);
     }
 
     private void OnRightArrowClicked()
     {
-        currentIndex++;
-        if (currentIndex >= hairTypeIndexes.Length) currentIndex = 0;
+        do
+        {
+            currentIndex++;
+            if (currentIndex >= hairTypeIndexes.Length) currentIndex = 0;
+        }
+        while (!buyAllEnabled && currentIndex == buyAllIndex);
         SetHair(currentIndex);
     }
 

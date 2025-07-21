@@ -239,6 +239,14 @@ MonoBehaviour:
     m_Key: lvl
     m_Metadata:
       m_Items: []
+  - m_Id: 101399871647289344
+    m_Key: Return to menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101480000759173120
+    m_Key: Coming soon
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

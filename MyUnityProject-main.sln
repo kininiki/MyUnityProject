@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FungusEditor", "FungusEditor.csproj", "{2AEA16E4-A932-8BE9-E354-1601392495DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FungusExamples", "FungusExamples.csproj", "{7114E771-6AA2-B294-AA42-43530FC1CFF4}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fungus.FungusLuaEditor", "Fungus.FungusLuaEditor.csproj", "{984D046C-6B75-2A7A-2AD1-51A0C5811D71}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{B1B96C7E-EF51-AD4F-1FF1-AFB3D9E39E3E}"
@@ -37,10 +35,6 @@ Global
 		{2AEA16E4-A932-8BE9-E354-1601392495DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AEA16E4-A932-8BE9-E354-1601392495DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AEA16E4-A932-8BE9-E354-1601392495DD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7114E771-6AA2-B294-AA42-43530FC1CFF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7114E771-6AA2-B294-AA42-43530FC1CFF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7114E771-6AA2-B294-AA42-43530FC1CFF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7114E771-6AA2-B294-AA42-43530FC1CFF4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{984D046C-6B75-2A7A-2AD1-51A0C5811D71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{984D046C-6B75-2A7A-2AD1-51A0C5811D71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{984D046C-6B75-2A7A-2AD1-51A0C5811D71}.Release|Any CPU.ActiveCfg = Release|Any CPU
