@@ -44,6 +44,18 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e97c92fd980897444b7bbbdade71fd71
+    m_Address: DialogueStrings_Adalinda1_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ebcf95509f7671741a125c1bf6023b38
+    m_Address: DialogueStrings_Adalinda2_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f07c47467d74bd940829ad9bf7a4d447
     m_Address: UI Text_MainMenu_en
     m_ReadOnly: 1
@@ -55,6 +67,7 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
+    - Preload
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 27a959ebf3bb53b4aa7117a47b363baf, type: 2}

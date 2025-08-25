@@ -5,6 +5,11 @@ public class FoodDisplay : MonoBehaviour
 {
     public TMP_Text foodText;
 
+    private void OnEnable()
+    {
+        UpdateFood();
+    }
+
     private void Start()
     {
         InvokeRepeating(nameof(UpdateFood), 0, 4f);

@@ -308,6 +308,8 @@ public class FadeOutCharacterCommand2 : Command
         baseLayer.color = new Color(baseColor.r, baseColor.g, baseColor.b, 0f);
         emotionLayer.color = new Color(emotionColor.r, emotionColor.g, emotionColor.b, 0f);
         dressLayer.color = new Color(dressColor.r, dressColor.g, dressColor.b, 0f);
+
+
     }
 
     public override string GetSummary()

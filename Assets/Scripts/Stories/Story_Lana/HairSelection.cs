@@ -13,6 +13,7 @@ using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Linq;
 using System;
+using UnityEngine.SceneManagement;
 
 [CommandInfo("Character",
     "Hair Selection",
@@ -144,7 +145,7 @@ public class HairSelectionCommand : Command
             StartCoroutine(FadeCharacter(visibleAlpha));
 
             int hairTypeIndex = hairTypeIndexes[index];
-            
+       
             characterManager.SetCharacterSprite(
                 positionIndex,
                 flowchart.GetVariable<IntegerVariable>("Type").Value,
@@ -156,7 +157,7 @@ public class HairSelectionCommand : Command
                 flowchart.GetVariable<IntegerVariable>("Accessorise").Value
             );
 
-            UpdateHairDescription(hairTypeIndex);
+            UpdateHairDescription(index);
             UpdatePriceDisplay(index);
         }
         else
@@ -324,6 +325,8 @@ public class HairSelectionCommand : Command
         {
             Debug.LogError("Error saving currency data");
         }
+
+        PriceCommand.RefreshPrice();
     }
 
     private bool IsValidJson(string jsonString)
@@ -381,17 +384,24 @@ public class HairSelectionCommand : Command
         priceText.text = anyUnlocked ? buyAllPrice.ToString() : "";
     }
 
-    private void UpdateHairDescription(int hairTypeIndex)
+    private void UpdateHairDescription(int index)
     {
-        if (hairTypeIndex >= 0 && hairTypeIndex < hairTypeDescriptions.Length)
+        if (index >= 0 && index < hairTypeDescriptions.Length)
         {
-            StartCoroutine(LoadLocalizedText(hairTypeDescriptions[hairTypeIndex]));
+            StartCoroutine(LoadLocalizedText(hairTypeDescriptions[index]));
         }
     }
 
     private void UpdateHairDescriptionForBuyAll()
     {
-        hairDescriptionText.text = "Купить все платные причёски";
+        if (buyAllIndex >= 0 && buyAllIndex < hairTypeDescriptions.Length)
+        {
+            StartCoroutine(LoadLocalizedText(hairTypeDescriptions[buyAllIndex]));
+        }
+        else
+        {
+            hairDescriptionText.text = "Купить все платные причёски";
+        }
     }
 
     private IEnumerator LoadLocalizedText(LocalizedString localizedString)
@@ -459,6 +469,8 @@ public class HairSelectionCommand : Command
         if (playerCurrency["ruby"] < buyAllPrice)
         {
             Debug.Log("Not enough rubies to buy all hair");
+            SceneHistoryManager.AddScene(SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene("shopRubin");
             yield break;
         }
 
@@ -485,6 +497,8 @@ public class HairSelectionCommand : Command
         if (playerCurrency["ruby"] < price)
         {
             Debug.Log("Not enough rubies to buy this hair");
+            SceneHistoryManager.AddScene(SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene("shopRubin");
             yield break;
         }
 

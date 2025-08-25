@@ -5,6 +5,11 @@ public class CatMoneyDisplay : MonoBehaviour
 {
     public TMP_Text catMoneyText;
 
+    private void OnEnable()
+    {
+        UpdateCatMoney();
+    }
+
     private void Start()
     {
         InvokeRepeating(nameof(UpdateCatMoney), 0, 4f);

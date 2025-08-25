@@ -5,6 +5,12 @@ public class RubyDisplay : MonoBehaviour
 {
     public TMP_Text rubyText;
 
+    private void OnEnable()
+    {
+        UpdateRuby();
+    }
+
+
     private void Start()
     {
         InvokeRepeating(nameof(UpdateRuby), 0, 4f);

@@ -6,6 +6,7 @@ using System.IO;
 using Fungus;
 using System.Globalization;
 using UnityEngine.UI;
+using UnityEngine.Localization;
 
 // Editor utility to import a scenario text file exported from the VBA macro.
 // Each line in the file should have the format:
@@ -91,6 +92,15 @@ public class ScenarioImporter : EditorWindow
                 {
                     if (string.IsNullOrWhiteSpace(pair))
                         continue;
+
+
+                    if (pair.IndexOf('=') == -1)
+                    {
+                        // For commands like CameraMove.MoveCameraCommand that use a single numeric parameter
+                        paramDict["_singleValue"] = pair.Trim();
+                        continue;
+                    }
+
                     string[] kv = pair.Split('=');
                     if (kv.Length != 2)
                         continue;
@@ -113,6 +123,17 @@ public class ScenarioImporter : EditorWindow
                 lineIndex++;
                 continue;
             }
+
+
+            if (paramDict.TryGetValue("_singleValue", out string singleVal))
+            {
+                if (commandType == typeof(CameraMove.MoveCameraCommand))
+                {
+                    paramDict["positionNumber"] = singleVal;
+                }
+                paramDict.Remove("_singleValue");
+            }
+
             bool isWarning = false;
             string trimmedParam = paramString.Trim();
             if (commandType == typeof(ShowDialogueBoxCommand) &&
@@ -305,7 +326,7 @@ public class ScenarioImporter : EditorWindow
                     if (preCommands[i].CommandType == camType)
                     {
                         var fadeDict = new System.Collections.Generic.Dictionary<string, string>();
-                        fadeDict["positionIndex"] = "2";
+                        fadeDict["positionIndex"] = "5";
                         fadeDict["duration"] = "0";
                         preCommands.Insert(i, new PreCommand(GetCommandType("FadeOutCharacterCommand2"), fadeDict));
                         secondaryDialogSpoken = false;
@@ -519,6 +540,51 @@ public class ScenarioImporter : EditorWindow
             choices.nameText.TableEntryReference = paramDict.ContainsKey("characterKey") ? paramDict["characterKey"] : choices.nameText.TableEntryReference;
             AssignIfNull(choices, "dialogueManager", Object.FindObjectOfType<DialogueManager>());
         }
+
+        ShowButtonCommand showBtn = command as ShowButtonCommand;
+        if (showBtn != null)
+        {
+            showBtn.buttonKeys = new System.Collections.Generic.List<string>();
+            if (paramDict.TryGetValue("buttonKeys", out string bk))
+            {
+                string[] bks = bk.Split(',');
+                foreach (var k in bks)
+                    showBtn.buttonKeys.Add(k.Trim());
+            }
+
+            showBtn.buttonTexts = new System.Collections.Generic.List<LocalizedString>();
+            if (paramDict.TryGetValue("localizationKey", out string lk))
+            {
+                string[] tks = lk.Split(',');
+                foreach (var t in tks)
+                {
+                    var ls = new LocalizedString();
+                    ls.TableReference = "DialogueStrings_Lana1";
+                    ls.TableEntryReference = t.Trim();
+                    showBtn.buttonTexts.Add(ls);
+                }
+            }
+
+            showBtn.flowchartVariableNames = new System.Collections.Generic.List<string>();
+            for (int i = 0; i < showBtn.buttonKeys.Count; i++)
+                showBtn.flowchartVariableNames.Add("Choice" + (i + 1));
+
+            showBtn.additionalTexts = new System.Collections.Generic.List<string>();
+            string[] prices = System.Array.Empty<string>();
+            if (paramDict.TryGetValue("additionalTexts", out string at))
+                prices = at.Split(',');
+            for (int i = 0; i < showBtn.buttonKeys.Count; i++)
+            {
+                string keyVal = showBtn.buttonKeys[i].Trim();
+                string priceVal = i < prices.Length ? prices[i].Trim() : string.Empty;
+                if (keyVal.StartsWith("pay", System.StringComparison.OrdinalIgnoreCase))
+                    showBtn.additionalTexts.Add(priceVal);
+                else
+                    showBtn.additionalTexts.Add(string.Empty);
+            }
+        }
+
+
 
         SetBackgroundCommand bg = command as SetBackgroundCommand;
         if (bg != null)

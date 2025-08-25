@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using Fungus;
+using Fungus.DentedPixel;
 
 [CommandInfo("Background", 
              "Set Background", 

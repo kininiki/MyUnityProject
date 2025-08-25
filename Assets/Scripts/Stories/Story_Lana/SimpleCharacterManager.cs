@@ -14,21 +14,33 @@ using Unity.Services.Core;
 
 public enum CharacterEmotion
 {
-    БровьВверх,
-    ВсторонуВверхБровь,
-    ВсторонуНаправо,
-    Грусть,
+    Нейтральное,
+    ПоднятаяБровь,
     Задумчивость,
-    Злость,
-    Краснеет,
-    Нахмуренная,
-    ОтведВзглядНаправо,
-    ПоднятыеБрови,
-    Улыбка,
     Ухмылка,
-    ШирокаяУлыбка,
-    Слёзы,
-    Нейтральное
+    Покраснение,
+    Злость,
+    Грусть,
+    ГрустьВзглядВСтор,
+    НахмурБрови,
+    ВСторНаправо,
+    ВСторНаверхБровь,
+    ОтведВзглядНаправо,
+    ПоднятБрови,
+    Улыбка,
+    ШирУлыбка,
+    ЗакрытГлаза,
+    ЗакрГлазаНахмБрови,
+    ЗакрГлазаУлыбка,
+    УхмылкаСлёзы,
+    Удивление,
+    Испуг,
+    НахмурСлёзы,
+    ИспугСлёзы,
+    УдивлПоднБрови,
+    Прищур,
+    НахмурВСтор,
+    ВзглядВСтор
 }
 
 [Serializable]
@@ -328,7 +340,7 @@ public class SetCharacterSpriteCommand : Command
     {
         yield return null;
 
-        flowchart = FindObjectOfType<Flowchart>();
+        flowchart = GetFlowchart();
 
         if (flowchart == null)
         {
@@ -602,7 +614,7 @@ public class PreloadFlowchartVariablesCommand : Command
         yield return LoadUnlockVariables();
 
         // Получаем Flowchart
-        Flowchart flowchart = FindObjectOfType<Flowchart>();
+        Flowchart flowchart = GetFlowchart();
 
         if (flowchart == null)
         {

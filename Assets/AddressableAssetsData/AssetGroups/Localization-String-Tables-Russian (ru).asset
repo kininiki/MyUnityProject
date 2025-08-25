@@ -34,6 +34,7 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-ru
+    - Preload
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7a71cec8db4192a459b448e54ef067eb
     m_Address: DialogueStrings_Lana3_ru
@@ -49,12 +50,24 @@ MonoBehaviour:
     - Locale-ru
     - Preload
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc8f6136158641b46a2b3afd73ba7448
+    m_Address: DialogueStrings_Adalinda1_ru
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: df432cd2f7a53834f904fdd6fff99b45
     m_Address: VideoPaths_ru
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-ru
     - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4dbfddee8299bd4196e8da8163037f1
+    m_Address: DialogueStrings_Adalinda2_ru
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 27a959ebf3bb53b4aa7117a47b363baf, type: 2}

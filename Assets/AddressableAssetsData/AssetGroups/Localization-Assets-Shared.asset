@@ -43,6 +43,18 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aeeaf4c27d8b4fa48871458cddaf4697
+    m_Address: Assets/Localization/Tables/Adalinda/Adalinda_1/DialogueStrings_Adalinda1
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de1528002281b334888174c0c2cf0e78
+    m_Address: Assets/Localization/Tables/Adalinda/Adalinda_2/DialogueStrings_Adalinda2
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e348cc529121d4744862932fc5e4107d
     m_Address: Assets/Localization/Tables/Lana/Lana_3/DialogueStrings_Lana3 Shared
       Data.asset

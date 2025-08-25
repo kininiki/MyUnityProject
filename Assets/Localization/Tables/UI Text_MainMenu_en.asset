@@ -27,15 +27,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4490657697792
-    m_Localized: Mythology, psychology
+    m_Localized: 18+, post-apocalypse, adventure, thriller, science fiction
     m_Metadata:
       m_Items: []
   - m_Id: 4737643483136
-    m_Localized: Special edition, romance
+    m_Localized: Urban fantasy, thriller, mystery, drama, humor
     m_Metadata:
       m_Items: []
   - m_Id: 4790466547712
-    m_Localized: Fantasy, uncesored 18+
+    m_Localized: Fantasy, uncesored 18+, humor
     m_Metadata:
       m_Items: []
   - m_Id: 4316422115328
@@ -291,6 +291,28 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 101480000759173120
     m_Localized: Coming soon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112885915395723264
+    m_Localized: 'The victim''s spirit returns in another person''s body to seek
+      revenge, only to find itself in the midst of the modern-day mafia''s web of
+      intrigue. Revenge becomes just the beginning of a journey. Will she be able
+      to navigate through a world where murderers and traitors lurk, or will she
+      become one of them? Will she be able to save her own soul, or will it be lost
+      forever?
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112894776714366976
+    m_Localized: "The world has been devastated by catastrophe. The continents have
+      changed shape, and humanity has taken to the skies. Earth has become a mysterious
+      place, full of stories about surviving savages and dangerous anomalies. But
+      who would dare to venture below to discover what lies beneath?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113299043979792384
+    m_Localized: Strictly 18+
     m_Metadata:
       m_Items: []
   references:

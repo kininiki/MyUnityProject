@@ -78,13 +78,29 @@ public class ButtonManager : MonoBehaviour
         }
     }
 
-    public void HideAllButtons()
+    public void HideAllButtons(params string[] keepKeys)
     {
+        HashSet<string> keepSet = (keepKeys != null) ? new HashSet<string>(keepKeys) : null;
         foreach (var style in buttonStyles)
         {
+            if (keepSet != null && keepSet.Contains(style.buttonKey))
+            {
+                continue;
+            }
+            
             if (style.button != null)
             {
+                style.button.onClick.RemoveAllListeners();
                 style.button.gameObject.SetActive(false);
+            }
+
+            if (style.textComponent != null)
+            {
+                style.textComponent.text = "";
+            }
+            if (style.additionalTextComponent != null)
+            {
+                style.additionalTextComponent.text = "";
             }
         }
     }
@@ -129,6 +145,7 @@ public class ShowButtonCommand : Command
             return;
         }
 
+        buttonManager.HideAllButtons(PriceCommand.GetActiveButtonKey());
         StartCoroutine(ShowLocalizedButtons());
     }
 
@@ -168,7 +185,7 @@ public class ShowButtonCommand : Command
             flowchart.SetIntegerVariable(variableName, 1);
         }
 
-        buttonManager.HideAllButtons();
+        buttonManager.HideAllButtons(PriceCommand.GetActiveButtonKey());
         Continue();
     }
 

@@ -17,9 +17,20 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 40a8c4548ce9ab446932ebc5adb1fa48
   m_SerializeEntries:
-  - m_GUID: 6d1fa055c3fc5384eaa3b9188bd292e1
-    m_Address: "Assets/UI/mainMenu/\u041A\u043E\u0440\u0440\u0435\u043A\u0446\u0438\u044F
-      \u043E\u0431\u043B\u043E\u0436\u043A\u0438 1-1_00000 (2).png"
+  - m_GUID: 092e7118a61fcce46ad80062019ca050
+    m_Address: "\u043D\u0435\u0441\u0432\u044F\u0442\u0430\u044F_ru"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6481a59871a7629408d5d9a5b04ca151
+    m_Address: "\u0440\u0435\u0432\u0435\u043D\u0430\u043D\u0442_en"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: edecb7ced0b0e1c4189647097c3324ce
+    m_Address: "\u0421\u0435\u0440\u0434\u0446\u0435\u043D\u0435\u0431\u0430_ru"
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-ru

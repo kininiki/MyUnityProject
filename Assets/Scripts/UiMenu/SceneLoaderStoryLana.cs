@@ -69,22 +69,32 @@ public class AsyncSceneLoaderWithPanel : MonoBehaviour
     {
         Debug.Log("Начало загрузки локализации...");
 
+        // Запускаем и ожидаем завершения операции инициализации локализации
         var localizationOperation = LocalizationSettings.InitializationOperation;
 
-        while (!localizationOperation.IsDone)
+        progressText.text = "...";
+
+        // Если операция по какой‑то причине не завершается, через таймаут принудительно завершаем её,
+        // чтобы не зависать бесконечно на экране загрузки.
+        const float timeout = 10f;
+        float timer = 0f;
+        while (!localizationOperation.IsDone && timer < timeout)
         {
-            // Показываем текст о загрузке локализации (опционально)
-            progressText.text = "Загрузка локализации...";
+            timer += Time.unscaledDeltaTime;
             yield return null;
         }
 
-        if (localizationOperation.IsDone)
+        if (!localizationOperation.IsDone)
         {
+            Debug.LogWarning("Таймаут инициализации локализации. Продолжаем без полного завершения.");
+        }
+        else if (localizationOperation.Status == UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationStatus.Succeeded)
+                {
             Debug.Log("Локализация загружена успешно.");
         }
         else
         {
-            Debug.LogError("Ошибка при загрузке локализации!");
+            Debug.LogError($"Ошибка при загрузке локализации: {localizationOperation.OperationException}");
         }
     }
 
@@ -112,7 +122,7 @@ public class AsyncSceneLoaderWithPanel : MonoBehaviour
             }
 
             progressBar.value = artificialProgress;
-            progressText.text = $"Загрузка: {(artificialProgress * 100):0}%";
+            progressText.text = $"{(artificialProgress * 100):0}%";
 
             if (realProgress >= 0.9f && elapsedTime >= minimumLoadingTime)
             {

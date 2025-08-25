@@ -458,10 +458,8 @@ MonoBehaviour:
     m_Localized: "\u201CI am such a bitch\u2026 Wonderful!\u201D"
     m_Metadata:
       m_Items: []
-  - m_Id: 5102284540121088
-    m_Localized: I saw that Sarah, my seventeen-year-old student, is already standing
-      at the entrance to the music school. Cute little girl, she didn't miss a single
-      class.
+  - m_Id: 61246200825679872
+    m_Localized: I start to sob and clutch my heart in the hopes of eliciting a response.
     m_Metadata:
       m_Items: []
   - m_Id: 5102357407764480
@@ -1245,7 +1243,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 6102967468855296
-    m_Localized: You managed to get money for the trip home
+    m_Localized: <i>You managed to get money for the trip home<i>
     m_Metadata:
       m_Items: []
   - m_Id: 6102972065812480
@@ -1316,7 +1314,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 6104021128351744
-    m_Localized: You managed to get money for the trip home
+    m_Localized: <i>You managed to get money for the trip home<i>
     m_Metadata:
       m_Items: []
   - m_Id: 6104021761691648
@@ -1334,8 +1332,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 6104977001844736
-    m_Localized: You didn't manage to get money for the trip home, but you kept your
-      dignity
+    m_Localized: <i>You didn't manage to get money for the trip home, but you kept
+      your dignity<i>
     m_Metadata:
       m_Items: []
   - m_Id: 6105084690599936
@@ -1344,9 +1342,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 6105085462351872
-    m_Localized: 'I see a bus stop on the horizon and start running, because my bus
-      is about to arrive. But I''m stopped by some commotion in the alley next to
-      me: a girl''s squeak and pleas for help.'
+    m_Localized: "\u201CDamn you, Ted...\u201D"
     m_Metadata:
       m_Items: []
   - m_Id: 6105086133440512
@@ -1359,55 +1355,56 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 6105087534338048
-    m_Localized: He's reaching for her!
+    m_Localized: No! Let go!
     m_Metadata:
       m_Items: []
   - m_Id: 6105088461279232
-    m_Localized: Trying to grab her!
+    m_Localized: '"Jesus, Sarah!"'
     m_Metadata:
       m_Items: []
   - m_Id: 6105403302514688
-    m_Localized: "\u201COh, no... I hate such brats!\u201D"
+    m_Localized: The bastard reaches for the girl's hands and tries to grab her.
+      I don't even want to think for what purpose!
     m_Metadata:
       m_Items: []
   - m_Id: 6105403965214720
-    m_Localized: I run as fast as I can toward the alley, tripping over my uncomfortable
-      shoes. It's a great reason to punch someone for all the good things.
+    m_Localized: I hate you bastards so much...
     m_Metadata:
       m_Items: []
   - m_Id: 6105404602748928
+    m_Localized: I run with all my legs towards the alley, stumbling because of my
+      uncomfortable boots. A perfect excuse to take off my shoes and get some attention
+      with a good throw.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6105405261254656
     m_Localized: I'd been through enough in the orphanage to begin to loathe violence.
       Especially over innocent and helpless children!
     m_Metadata:
       m_Items: []
-  - m_Id: 6105405261254656
+  - m_Id: 6105406116892672
     m_Localized: Hey, you! Let the girl go!
     m_Metadata:
       m_Items: []
-  - m_Id: 6105406116892672
-    m_Localized: At first, the suspicious guy doesn't pay any attention to me, so
-      I throw the shoe I took off at him without thinking of anything better to do.
+  - m_Id: 6105698690568192
+    m_Localized: At first the man doesn't pay any attention to me, so I throw a boot
+      at him that I've taken off on my way. This won't help the big man, but it will
+      buy some time.
     m_Metadata:
       m_Items: []
-  - m_Id: 6105698690568192
+  - m_Id: 6105699508457472
     m_Localized: I said get the hell away from her! I've already called the cops,
       they're on their way!
     m_Metadata:
       m_Items: []
-  - m_Id: 6105699508457472
+  - m_Id: 6105700334735360
     m_Localized: "Only now I\u2019ve noticed that something dark is flying around
       him, like a sinister magic, like in my favorite movies, where the most beautiful
       heroine dies first."
     m_Metadata:
       m_Items: []
-  - m_Id: 6105700334735360
-    m_Localized: What the hell is this...?
-    m_Metadata:
-      m_Items: []
   - m_Id: 6105701165207552
-    m_Localized: 'The man turns his head in my direction in complete disbelief and
-      I swear he''s frowning, even though I can''t see it. He''s still standing there,
-      and I''m not going to give in to fear while he''s got the girl. '
+    m_Localized: What the hell is this...?
     m_Metadata:
       m_Items: []
   - m_Id: 6105702830346240
@@ -1415,14 +1412,13 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 6106016606228480
-    m_Localized: "She takes a step, and the whole world seems to freeze at the snap
-      of the villain's long fingers. The raindrops slow down \u2013 I can no longer
-      feel them moving."
+    m_Localized: Sarah takes a step and the whole world seems to freeze at the snap
+      of the villain's long fingers. The raindrops slow down, the noise of the city
+      fades to silence.... It is as if a pause button has been pressed.
     m_Metadata:
       m_Items: []
   - m_Id: 6106018351058944
-    m_Localized: 'I move forward, looking around, and don''t understand what''s going
-      on: the cars aren''t moving, all the sounds seem to have been erased.'
+    m_Localized: Who're you?
     m_Metadata:
       m_Items: []
   - m_Id: 6106019290583040
@@ -1431,96 +1427,92 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 6106175096393728
-    m_Localized: His eyes seem familiar to me, beckoning with an inexplicable force,
-      not allowing me to think, drawing me to myself. He's doing something to me
-      that makes me feel unnaturally calm.
+    m_Localized: Standing barefoot on the cold and wet pavement, the last thing I
+      want to do is introduce myself to the madman who just attacked the schoolgirl.
     m_Metadata:
       m_Items: []
   - m_Id: 6106175775870976
-    m_Localized: "\u201CHave we met before...?\u201D"
+    m_Localized: Miss Vale, I was wrong!
     m_Metadata:
       m_Items: []
   - m_Id: 6106176535040000
-    m_Localized: Sarah, like me, is under his hypnotic influence and slowly comes
-      closer. Surprisingly, I don't feel any fear.
+    m_Localized: Sarah's voice is too loud in the unnatural silence of a frozen Nashville.
     m_Metadata:
       m_Items: []
   - m_Id: 6106177482952704
-    m_Localized: His face is so close that I can touch it.
+    m_Localized: What's going on?
     m_Metadata:
       m_Items: []
   - m_Id: 6106406408065024
-    m_Localized: 'To touch '
+    m_Localized: To kick to the groin
     m_Metadata:
       m_Items: []
   - m_Id: 6106407142068224
-    m_Localized: 'To abstain '
+    m_Localized: Don't resist
     m_Metadata:
       m_Items: []
   - m_Id: 6106408190644224
-    m_Localized: He paused, allowing his trembling fingertips to trace his cheek,
-      his chin, his lips...
+    m_Localized: I try to put a confused expression on my face so that I look weak.
+      It will help me take advantage of the surprise effect.
     m_Metadata:
       m_Items: []
   - m_Id: 6106409226637312
-    m_Localized: The handsome face is decorated with a few wrinkles, and the warmth
-      of his skin intoxicates the mind.
+    m_Localized: You're coming with m...
     m_Metadata:
       m_Items: []
   - m_Id: 6106655205789696
-    m_Localized: I stare into the depths of those wary yet sad eyes, trying to discern
-      the truth.
+    m_Localized: I take advantage of the moment while he's talking and slam my knee
+      hard between the maniac's legs, causing him to bend in half.
     m_Metadata:
       m_Items: []
   - m_Id: 6106666048065536
-    m_Localized: "\u201CI remember you... But when did we meet?\u201D"
+    m_Localized: Sarah, run!
     m_Metadata:
       m_Items: []
   - m_Id: 6106872604954624
-    m_Localized: My body is calm, but inside I'm like a bird trying to escape its
-      cage. I want to jump away, but I can't.
+    m_Localized: He manages to grab my sleeve, but it's the boot, fortunately still
+      in my hand, that comes into play.
     m_Metadata:
       m_Items: []
   - m_Id: 6106878623780864
-    m_Localized: 'Finally, I hear a soft whisper:'
+    m_Localized: The bastard doesn't like the sound of a boot on his face, but he
+      manages to get away.
     m_Metadata:
       m_Items: []
   - m_Id: 6106882318962688
-    m_Localized: Who are you?
+    m_Localized: G-r-r-h...
     m_Metadata:
       m_Items: []
   - m_Id: 6107055891845120
-    m_Localized: Lana.
+    m_Localized: I grab the student by her sweater, but she seems stunned and has
+      no intention of running away.
     m_Metadata:
       m_Items: []
   - m_Id: 6107062086832128
-    m_Localized: I exercise caution and return to understanding the situation, trying
-      to regain control of my body.
+    m_Localized: No, no, you've got it all wrong!
     m_Metadata:
       m_Items: []
   - m_Id: 6107179317628928
-    m_Localized: "\u201CWhy is it so hard to look away...?\u201D"
+    m_Localized: Come on, don't just stand there!
     m_Metadata:
       m_Items: []
   - m_Id: 6107180315873280
-    m_Localized: The man looks puzzled, but his rough face quickly shows determination,
-      and my heart finally skips a beat of fear.
+    m_Localized: Oblivisca Lethargis!
     m_Metadata:
       m_Items: []
   - m_Id: 6107182991839232
-    m_Localized: Another snap of his long fingers, and the rain hits the three of
-      us overnight, settling into the normal flow of time.
+    m_Localized: My legs suddenly start to shake, my eyes start to darken...
     m_Metadata:
       m_Items: []
   - m_Id: 6107333093396480
-    m_Localized: I flinch and grab Sarah's arm, but a flash of light blinds us and
-      takes us to what I might describe as nothingness.
+    m_Localized: 'I don''t feel anything, I don''t think about anything and I don''t
+      seem to exist.... In front of me is a space: empty and dark, where there is
+      everything and there is... nothing.'
     m_Metadata:
       m_Items: []
   - m_Id: 6107334108418048
-    m_Localized: 'I don''t feel anything, I don''t think about anything, and I don''t
-      seem to exist... Space is in front of me: empty and dark, where everything
-      is and there is... nothing.'
+    m_Localized: Something changes abruptly, and the rain pelts the three of us overnight,
+      entering the usual flow of time.
     m_Metadata:
       m_Items: []
   - m_Id: 11263837006106624
@@ -1618,6 +1610,124 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 61246184304316416
     m_Localized: Kier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6107335161188352
+    m_Localized: 'Machine words fly off my lips:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6107335748390912
+    m_Localized: Sara, run...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6107336549502976
+    m_Localized: I blame myself for my fear and weakness, for never deciding to do
+      something.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6107337090568192
+    m_Localized: "\u201CWhy is it so hard to look away...?\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61246185034125312
+    m_Localized: 'A bus stop looms on the horizon and I break into a sprint because
+      a bus is about to pull up. But I''m stopped by some kind of commotion in the
+      alley: a girl squealing and screaming for help.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61246185822654464
+    m_Localized: Help me!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61246194056073216
+    m_Localized: The man looks puzzled, but determination quickly appears on the
+      rough face.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61246194756521984
+    m_Localized: The flash of light blinded me for a moment and then I fell. Where
+      there is absolutely nothing. Nothing.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61246193468870656
+    m_Localized: I can't handle a man twice my size, but I can at least try to escape...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61246191740817408
+    m_Localized: A feeling of unease fills every cell as the tall, cloaked figure
+      comes close enough to touch me.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61246186611183616
+    m_Localized: "What the h\u2026?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61246187370352640
+    m_Localized: "\u201CA play of lights?\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61246188171464704
+    m_Localized: The man continues to stand still, a little confused, as if he didn't
+      expect anyone in this town to be able to run to the girl's aid.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61246188871913472
+    m_Localized: Tenebris!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61246189605916672
+    m_Localized: But I'm at a loss. The words catch in my throat and my hand trembles
+      as it clutches my other boot.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61246190448971776
+    m_Localized: How suddenly those dark eyes seem familiar, beckoning with an inexplicable
+      power, preventing me from thinking. He's doing something to me, like a hypnotist
+      calming a victim.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61246191212335104
+    m_Localized: "\u201CHave we met before...?\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61246197071777792
+    m_Localized: 'Advice
+
+
+      Trick and Charm affect the heroine''s behavior.
+      The maximum amount of one of them will open additional choices. Let''s try
+      it!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61246196224528384
+    m_Localized: 'Advice
+
+
+      The game has a balance of Light and Darkness stats.
+      You can accumulate either one or both to get a unique plot development.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61246197835141120
+    m_Localized: 'Advice
+
+
+      There is a balance of Light and Darkness stats in
+      the game. You can stack either one or both to get a unique story progression.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61246198569144320
+    m_Localized: 'Advice
+
+
+      Trick and Charm affect the heroine''s behavior.
+      The maximum amount of one of them will open additional choices. Let''s try
+      it!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61246200032956416
+    m_Localized: I see that my seventeen-year-old student is already standing at
+      the entrance to the music school. A sweet girl, she hasn't missed a single
+      lesson.
     m_Metadata:
       m_Items: []
   references:

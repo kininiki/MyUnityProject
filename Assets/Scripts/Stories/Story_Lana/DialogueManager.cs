@@ -721,3 +721,42 @@ public class ForChoicesCommand : Command
         return new Color32(240, 180, 120, 255);
     }
 }
+
+
+[CommandInfo("Dialogue", "Fade Out For Choices", "Hides the For Choices dialogue box.")]
+public class FadeOutForChoicesCommand : Command
+{
+    [SerializeField] protected DialogueManager dialogueManager;
+    [SerializeField] protected string dialogueBoxName;
+
+    public override void OnEnter()
+    {
+        if (dialogueManager == null)
+        {
+            Debug.LogError("DialogueManager not assigned in FadeOutForChoicesCommand!");
+            Continue();
+            return;
+        }
+
+        var dialogueBox = Array.Find(dialogueManager.dialogueBoxes, box => box.name == dialogueBoxName);
+        if (dialogueBox == null)
+        {
+            Debug.LogError($"Dialogue box '{dialogueBoxName}' not found in FadeOutForChoicesCommand");
+            Continue();
+            return;
+        }
+
+        dialogueManager.HideDialogueBox(dialogueBox);
+        Continue();
+    }
+
+    public override string GetSummary()
+    {
+        return $"Hide For Choices '{dialogueBoxName}'";
+    }
+
+    public override Color GetButtonColor()
+    {
+        return new Color32(240, 180, 120, 255);
+    }
+}

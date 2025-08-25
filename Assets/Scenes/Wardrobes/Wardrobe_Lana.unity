@@ -2721,16 +2721,6 @@ MonoBehaviour:
       price: 0
       buyIndex: 
       isSelectAll: 0
-    - sprite: {fileID: 21300000, guid: bdfeb41b9a971144fa6c70c6ef15666a, type: 3}
-      localizationKey: SelectAll
-      description: 
-      unlockConditions:
-      - variableName: w0
-        requiredValue: 1
-      isPaid: 1
-      price: 16
-      buyIndex: 
-      isSelectAll: 1
     displayImage: {fileID: 427792799}
     displayImageAll: {fileID: 1490996575}
     itemNameText: {fileID: 613993188}
@@ -2791,7 +2781,7 @@ MonoBehaviour:
   - categoryName: lover1
     sprites:
     - sprite: {fileID: 21300000, guid: 1157091080361ca4194fed4056d7582d, type: 3}
-      localizationKey: Stranger
+      localizationKey: MysteriousStranger
       description: 
       unlockConditions:
       - variableName: f1
@@ -2817,7 +2807,7 @@ MonoBehaviour:
   - categoryName: lover2
     sprites:
     - sprite: {fileID: 21300000, guid: 1157091080361ca4194fed4056d7582d, type: 3}
-      localizationKey: Stranger
+      localizationKey: MysteriousStranger
       description: 
       unlockConditions:
       - variableName: f2
@@ -2843,7 +2833,7 @@ MonoBehaviour:
   - categoryName: lover3
     sprites:
     - sprite: {fileID: 21300000, guid: 1157091080361ca4194fed4056d7582d, type: 3}
-      localizationKey: Stranger
+      localizationKey: MysteriousStranger
       description: 
       unlockConditions:
       - variableName: f3
@@ -2859,7 +2849,7 @@ MonoBehaviour:
   - categoryName: lover4
     sprites:
     - sprite: {fileID: 21300000, guid: 1157091080361ca4194fed4056d7582d, type: 3}
-      localizationKey: Stranger
+      localizationKey: MysteriousStranger
       description: 
       unlockConditions:
       - variableName: f4
@@ -2875,7 +2865,7 @@ MonoBehaviour:
   - categoryName: lover5
     sprites:
     - sprite: {fileID: 21300000, guid: 1157091080361ca4194fed4056d7582d, type: 3}
-      localizationKey: Stranger
+      localizationKey: MysteriousStranger
       description: 
       unlockConditions:
       - variableName: f5
@@ -2891,7 +2881,7 @@ MonoBehaviour:
   - categoryName: lover6
     sprites:
     - sprite: {fileID: 21300000, guid: 1157091080361ca4194fed4056d7582d, type: 3}
-      localizationKey: Stranger
+      localizationKey: MysteriousStranger
       description: 
       unlockConditions:
       - variableName: f6

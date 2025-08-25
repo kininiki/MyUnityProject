@@ -453,6 +453,7 @@
 "Assets/Scripts/Stories/Story_Lana/HairSelection.cs"
 "Assets/Scripts/Stories/Story_Lana/LoadCloudDataCommand.cs"
 "Assets/Scripts/Stories/Story_Lana/LoadCloudDataCommand2.cs"
+"Assets/Scripts/Stories/Story_Lana/MoveAroundBackground.cs"
 "Assets/Scripts/Stories/Story_Lana/MoveAroundCamera.cs"
 "Assets/Scripts/Stories/Story_Lana/PlayMusic.cs"
 "Assets/Scripts/Stories/Story_Lana/PriceCommand.cs"

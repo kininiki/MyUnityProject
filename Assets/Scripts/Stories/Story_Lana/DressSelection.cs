@@ -14,6 +14,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System;
 using UnityEngine.AddressableAssets;
+using UnityEngine.SceneManagement;
 
 [CommandInfo("Character",
     "Dress Selection",
@@ -162,7 +163,7 @@ public class DressSelectionCommand : Command
             );
             characterManager.ForceUpdateDress(positionIndex, dressTypeIndex); // Дополнительный принудительный вызов
 
-            UpdateDressDescription(dressTypeIndex);
+            UpdateDressDescription(index);
             UpdatePriceDisplay(index);
         }
         else
@@ -326,10 +327,12 @@ public class DressSelectionCommand : Command
         var saveOperation = CloudSaveService.Instance.Data.ForceSaveAsync(dataToSave);
         yield return new WaitUntil(() => saveOperation.IsCompleted);
 
-        if (saveOperation.IsFaulted)
-        {
-            Debug.LogError("Error saving currency data");
-        }
+       if (saveOperation.IsFaulted)
+       {
+           Debug.LogError("Error saving currency data");
+       }
+
+        PriceCommand.RefreshPrice();
     }
 
     private bool IsValidJson(string jsonString)
@@ -387,17 +390,24 @@ public class DressSelectionCommand : Command
         priceText.text = anyUnlocked ? buyAllPrice.ToString() : "";
     }
 
-    private void UpdateDressDescription(int dressTypeIndex)
+    private void UpdateDressDescription(int index)
     {
-        if (dressTypeIndex >= 0 && dressTypeIndex < dressTypeDescriptions.Length)
+        if (index >= 0 && index < dressTypeDescriptions.Length)
         {
-            StartCoroutine(LoadLocalizedText(dressTypeDescriptions[dressTypeIndex]));
+            StartCoroutine(LoadLocalizedText(dressTypeDescriptions[index]));
         }
     }
 
     private void UpdateDressDescriptionForBuyAll()
     {
-        dressDescriptionText.text = "Купить всю платную одежду";
+        if (buyAllIndex >= 0 && buyAllIndex < dressTypeDescriptions.Length)
+        {
+            StartCoroutine(LoadLocalizedText(dressTypeDescriptions[buyAllIndex]));
+        }
+        else
+        {
+            dressDescriptionText.text = "Купить всю платную одежду";
+        }
     }
 
     private IEnumerator LoadLocalizedText(LocalizedString localizedString)
@@ -456,6 +466,8 @@ public class DressSelectionCommand : Command
         if (playerCurrency["ruby"] < buyAllPrice)
         {
             Debug.Log("Not enough rubies to buy all dresses");
+            SceneHistoryManager.AddScene(SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene("shopRubin");
             yield break;
         }
 
@@ -482,6 +494,8 @@ public class DressSelectionCommand : Command
         if (playerCurrency["ruby"] < price)
         {
             Debug.Log("Not enough rubies to buy this dress");
+            SceneHistoryManager.AddScene(SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene("shopRubin");
             yield break;
         }
 

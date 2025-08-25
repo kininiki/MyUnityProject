@@ -9,6 +9,7 @@ using Unity.Services.Authentication;
 using Newtonsoft.Json;
 using System.Threading.Tasks;
 using System.Collections.Generic;
+using Fungus.DentedPixel;
 
 [CommandInfo("Custom", 
              "Price", 
@@ -32,8 +33,17 @@ public class PriceCommand : Command
     private bool isActive = true;
     private const string CURRENCY_KEY = "PLAYER_RUBY";
 
+    private static PriceCommand activeInstance;
+
     public override void OnEnter()
     {
+        // Останавливаем предыдущую активную команду, если она существует
+        if (activeInstance != null && activeInstance != this)
+        {
+            activeInstance.StopUpdating();
+        }
+
+        
         buttonManager = FindObjectOfType<ButtonManager>();
 
         if (buttonManager == null)
@@ -42,6 +52,23 @@ public class PriceCommand : Command
             Continue();
             return;
         }
+
+        // Реактивируем кнопку после возможного FadeOut
+        ButtonStyle style = buttonManager.buttonStyles.Find(b => b.buttonKey == buttonKey);
+        if (style != null && style.button != null)
+        {
+            GameObject target = style.button.gameObject;
+            target.SetActive(true);
+            CanvasGroup cg = target.GetComponent<CanvasGroup>();
+            if (cg == null)
+            {
+                cg = target.AddComponent<CanvasGroup>();
+            }
+            cg.alpha = 1f;
+        }
+
+        activeInstance = this;
+
 
         // Инициализация Unity Services
         StartCoroutine(InitializeAndStartUpdating());
@@ -135,6 +162,39 @@ public class PriceCommand : Command
         buttonManager.ApplyStyle(buttonKey, rubyCount.ToString());
     }
 
+    public static void RefreshPrice()
+    {
+        if (activeInstance != null)
+        {
+            activeInstance.StartCoroutine(activeInstance.UpdatePrice());
+        }
+    }
+
+    private void StopUpdating()
+    {
+        isActive = false;
+        if (updateCoroutine != null)
+        {
+            StopCoroutine(updateCoroutine);
+            updateCoroutine = null;
+        }
+    }
+
+    public static string GetActiveButtonKey()
+    {
+        return activeInstance != null ? activeInstance.buttonKey : null;
+    }
+
+    public static void StopActiveInstance()
+    {
+        if (activeInstance != null)
+        {
+            activeInstance.StopUpdating();
+            activeInstance = null;
+        }
+    }
+
+
     private void OpenShopScene()
     {
         if (!string.IsNullOrEmpty(shopSceneName))
@@ -159,19 +219,15 @@ public class PriceCommand : Command
         }
     }
 
-    public override void OnExit()
-    {
-        // Останавливаем обновление при выходе из команды
-        isActive = false;
-        if (updateCoroutine != null)
-        {
-            StopCoroutine(updateCoroutine);
-        }
-    }
+
+
 
     public override string GetSummary()
     {
-        return $"Отображает количество рубинов на кнопке '{buttonKey}' (обновление каждые {updateInterval} сек) и открывает сцену '{shopSceneName}' при нажатии.";
+        return string.Format(
+            "Отображает количество рубинов на кнопке '{0}' (обновление каждые {1} сек) " +
+            "и открывает сцену '{2}' при нажатии.",
+            buttonKey, updateInterval, shopSceneName);
     }
 }
 
@@ -214,7 +270,7 @@ public class PriceFadeOutCommand : Command
         }
 
         float startAlpha = canvasGroup.alpha;
-        LeanTween.value(target, startAlpha, 0f, fadeDuration)
+        Fungus.DentedPixel.LeanTween.value(target, startAlpha, 0f, fadeDuration)
             .setOnUpdate((float value) =>
             {
                 canvasGroup.alpha = value;
@@ -222,6 +278,7 @@ public class PriceFadeOutCommand : Command
             .setOnComplete(() =>
             {
                 target.SetActive(false);
+                PriceCommand.StopActiveInstance();
                 Continue();
             });
     }
