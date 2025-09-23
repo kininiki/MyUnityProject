@@ -9,6 +9,10 @@ onBoardingDoNotAskAgain = true
 showPackageIndexes = false
 showStatusBar = false
 scopes = {
+	"picker_window_position_offset.00000000" = "291,5;319;320;550"
+	"picker_visibility_flags.00000000" = "0"
+	"picker_item_size.00000000" = "96"
+	"picker_inspector.00000000" = "0"
 }
 providers = {
 	asset = {
@@ -66,6 +70,21 @@ providers = {
 		priority = 210
 		defaultAction = null
 	}
+	"unity.ai.pattern.search" = {
+		active = true
+		priority = 80
+		defaultAction = null
+	}
+	"unity.ai.file.search" = {
+		active = true
+		priority = 85
+		defaultAction = null
+	}
+	presets_provider = {
+		active = false
+		priority = -10
+		defaultAction = null
+	}
 }
 objectSelectors = {
 }
@@ -84,3 +103,4 @@ helperWidgetCurrentArea = "all"
 disabledIndexers = ""
 minIndexVariations = 2
 findProviderIndexHelper = true
+itemIconSize = 32

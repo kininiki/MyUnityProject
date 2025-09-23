@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Stories/Story_Lana/Chapter1_Lana.unity
+- path: Assets/Scenes/Stories/Story_Lana/Chapter1_Lana1.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

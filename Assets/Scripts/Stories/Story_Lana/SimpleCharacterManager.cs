@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 using Unity.Services.CloudSave;
 using Unity.Services.Authentication;
 using Unity.Services.Core;
+using UnityEngine.Scripting;
 
 public enum CharacterEmotion
 {
@@ -50,6 +51,7 @@ public class CharacterType
     public AssetReferenceSprite[] emotionSprites; // Спрайты эмоций
 }
 
+[Preserve]
 public class SimpleCharacterManager : MonoBehaviour
 {
     [SerializeField]
@@ -319,6 +321,7 @@ public class SimpleCharacterManager : MonoBehaviour
 [CommandInfo("Character", 
     "Set Character Sprite", 
     "Sets the character sprite at a specified position with a specified emotion, hair, makeup, dress, ukrashenie and accessorise")]
+[Preserve]
 public class SetCharacterSpriteCommand : Command
 {
     [Tooltip("Position on the screen where the character should appear")]

@@ -29,6 +29,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Stories/Story_Lana/Chapter1_Lana.unity
     guid: 78260ca7d2c09684d8808ff1b96c74cf
+  - enabled: 1
+    path: Assets/Scenes/Stories/Story_Lana/Chapter1_Lana1.unity
+    guid: 2d48e7b7e2c146e4295ae09146f25434
   - enabled: 0
     path: Assets/Scenes/Stories/Story_Lana/Chapter101_Lana.unity
     guid: daa28b21e09d73c409584884364eca38
@@ -66,3 +69,4 @@ EditorBuildSettings:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 3cc5c15dd164583409a16ee34b242dd6, type: 2}
     com.unity.addressableassets: {fileID: 11400000, guid: 9ba37379f85812444a6814d67b398875, type: 2}
     com.unity.localization.settings: {fileID: 11400000, guid: ec8c1310316be0346ac6cfbf70a23875, type: 2}
+  m_UseUCBPForAssetBundles: 0
